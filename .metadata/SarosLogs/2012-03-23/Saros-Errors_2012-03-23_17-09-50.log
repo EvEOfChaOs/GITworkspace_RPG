@@ -1,0 +1,96 @@
+WARN  2012-03-23 17:09:50,484 (DiscoveryManager.java:439) Service Discovery failed on recipient burnett98@gmail.com/IM+C8944A78 server:xmpp.l.google.com:
+No response from the server.: 
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:445)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:414)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.querySupport(DiscoveryManager.java:436)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isFeatureSupported(DiscoveryManager.java:387)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.getSupportingPresence(DiscoveryManager.java:289)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isSarosSupported(DiscoveryManager.java:207)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager$2$1.run(DiscoveryManager.java:329)
+	at de.fu_berlin.inf.dpp.util.Utils$6.run(Utils.java:377)
+	at java.lang.Thread.run(Thread.java:680)
+WARN  2012-03-23 17:13:05,008 (DiscoveryManager.java:439) Service Discovery failed on recipient lightningzygella@gmail.com/Talk.v104CA98D3B0 server:xmpp.l.google.com:
+feature-not-implemented(501)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:448)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:414)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.querySupport(DiscoveryManager.java:436)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isFeatureSupported(DiscoveryManager.java:387)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.getSupportingPresence(DiscoveryManager.java:289)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isSarosSupported(DiscoveryManager.java:207)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager$2$1.run(DiscoveryManager.java:329)
+	at de.fu_berlin.inf.dpp.util.Utils$6.run(Utils.java:377)
+	at java.lang.Thread.run(Thread.java:680)
+WARN  2012-03-23 17:13:05,009 (DiscoveryManager.java:439) Service Discovery failed on recipient lightningzygella@gmail.com/Talk.v104CA98D3B0 server:xmpp.l.google.com:
+feature-not-implemented(501)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:448)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:414)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.querySupport(DiscoveryManager.java:436)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isFeatureSupported(DiscoveryManager.java:387)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.getSupportingPresence(DiscoveryManager.java:289)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isSarosSupported(DiscoveryManager.java:207)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager$2$1.run(DiscoveryManager.java:329)
+	at de.fu_berlin.inf.dpp.util.Utils$6.run(Utils.java:377)
+	at java.lang.Thread.run(Thread.java:680)
+WARN  2012-03-23 17:13:05,009 (DiscoveryManager.java:439) Service Discovery failed on recipient lightningzygella@gmail.com/Talk.v104CA98D3B0 server:xmpp.l.google.com:
+feature-not-implemented(501)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:448)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:414)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.querySupport(DiscoveryManager.java:436)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isFeatureSupported(DiscoveryManager.java:387)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.getSupportingPresence(DiscoveryManager.java:289)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isSarosSupported(DiscoveryManager.java:207)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager$2$1.run(DiscoveryManager.java:329)
+	at de.fu_berlin.inf.dpp.util.Utils$6.run(Utils.java:377)
+	at java.lang.Thread.run(Thread.java:680)
+WARN  2012-03-23 17:13:05,411 (DiscoveryManager.java:439) Service Discovery failed on recipient lightningzygella@gmail.com/Talk.v104CA98D3B0 server:xmpp.l.google.com:
+feature-not-implemented(501)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:448)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:414)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.querySupport(DiscoveryManager.java:436)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isFeatureSupported(DiscoveryManager.java:387)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.getSupportingPresence(DiscoveryManager.java:289)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isSarosSupported(DiscoveryManager.java:207)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager$2$1.run(DiscoveryManager.java:329)
+	at de.fu_berlin.inf.dpp.util.Utils$6.run(Utils.java:377)
+	at java.lang.Thread.run(Thread.java:680)
+WARN  2012-03-23 17:13:05,666 (DiscoveryManager.java:439) Service Discovery failed on recipient lightningzygella@gmail.com/Talk.v104CA98D3B0 server:xmpp.l.google.com:
+feature-not-implemented(501)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:448)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:414)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.querySupport(DiscoveryManager.java:436)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isFeatureSupported(DiscoveryManager.java:387)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.getSupportingPresence(DiscoveryManager.java:289)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isSarosSupported(DiscoveryManager.java:207)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager$2$1.run(DiscoveryManager.java:329)
+	at de.fu_berlin.inf.dpp.util.Utils$6.run(Utils.java:377)
+	at java.lang.Thread.run(Thread.java:680)
+WARN  2012-03-23 17:13:05,919 (DiscoveryManager.java:439) Service Discovery failed on recipient lightningzygella@gmail.com/Talk.v104CA98D3B0 server:xmpp.l.google.com:
+feature-not-implemented(501)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:448)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:414)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.querySupport(DiscoveryManager.java:436)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isFeatureSupported(DiscoveryManager.java:387)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.getSupportingPresence(DiscoveryManager.java:289)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isSarosSupported(DiscoveryManager.java:207)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager$2$1.run(DiscoveryManager.java:329)
+	at de.fu_berlin.inf.dpp.util.Utils$6.run(Utils.java:377)
+	at java.lang.Thread.run(Thread.java:680)
+WARN  2012-03-23 17:14:09,486 (SubscriptionManager.java:106) Received error presence package from saros926139784@conference.jabber.ccc.de/jrbaca@gmail.com/Saros9B87F4A6, condition: not-authorized, message: A password is required to enter this room
+WARN  2012-03-23 17:14:09,667 (SubscriptionManager.java:106) Received error presence package from saros926139784@conference.jabber.ccc.de/jrbaca@gmail.com/Saros9B87F4A6, condition: not-authorized, message: A password is required to enter this room
+WARN  2012-03-23 17:14:20,693 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 17:15:23,985 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 17:15:24,024 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 17:15:33,089 (ContributionAnnotationManager.java:117) Annotation could not be found: de.fu_berlin.inf.dpp.editor.annotations.ContributionAnnotation@ec5359
+WARN  2012-03-23 17:15:37,044 (EditorAPI.java:763) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@19bcf14: Bottom == 0 < Top == 2
+WARN  2012-03-23 17:15:38,633 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 17:15:38,664 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 17:15:46,800 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 17:15:46,830 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 17:15:50,458 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 17:15:50,488 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 17:15:56,062 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 17:15:56,094 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 17:17:43,462 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 17:17:43,489 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 17:18:44,565 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 17:18:44,591 (SharedProjectFileDecorator.java:134) path object should not be null

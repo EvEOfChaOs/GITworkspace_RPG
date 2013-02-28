@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+
+public class mainMathCalculator {
+
+	//assign text scanner to sc
+	Scanner sc = new Scanner(System.in);
+	
+	public static void main(String[] args) {
+		
+		//Import areaCalc.class and assign to "calcObject" for use
+		
+		selectionMenu menu = new selectionMenu();
+		
+		menu.welcome();
+		menu.selection();
+		
+		System.out.println("COMPLETE");
+		//calcObject.triangle();
+		
+	}
+
+}

@@ -1,0 +1,52 @@
+WARN  2012-03-27 19:01:45,661 (DiscoveryManager.java:439) Service Discovery failed on recipient lightningzygella@gmail.com/Talk.v10400871077 server:xmpp.l.google.com:
+feature-not-implemented(501)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:448)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:414)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.querySupport(DiscoveryManager.java:436)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isFeatureSupported(DiscoveryManager.java:387)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.getSupportingPresence(DiscoveryManager.java:289)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isSarosSupported(DiscoveryManager.java:207)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager$2$1.run(DiscoveryManager.java:329)
+	at de.fu_berlin.inf.dpp.util.Utils$6.run(Utils.java:377)
+	at java.lang.Thread.run(Thread.java:680)
+WARN  2012-03-27 19:15:58,656 (DiscoveryManager.java:439) Service Discovery failed on recipient lightningzygella@gmail.com/Talk.v10400871077 server:xmpp.l.google.com:
+feature-not-implemented(501)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:448)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:414)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.querySupport(DiscoveryManager.java:436)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isFeatureSupported(DiscoveryManager.java:387)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.getSupportingPresence(DiscoveryManager.java:289)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isSarosSupported(DiscoveryManager.java:207)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager$2$1.run(DiscoveryManager.java:329)
+	at de.fu_berlin.inf.dpp.util.Utils$6.run(Utils.java:377)
+	at java.lang.Thread.run(Thread.java:680)
+WARN  2012-03-27 19:15:59,043 (DiscoveryManager.java:439) Service Discovery failed on recipient lightningzygella@gmail.com/Talk.v10400871077 server:xmpp.l.google.com:
+feature-not-implemented(501)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:448)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:414)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.querySupport(DiscoveryManager.java:436)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isFeatureSupported(DiscoveryManager.java:387)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.getSupportingPresence(DiscoveryManager.java:289)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isSarosSupported(DiscoveryManager.java:207)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager$2$1.run(DiscoveryManager.java:329)
+	at de.fu_berlin.inf.dpp.util.Utils$6.run(Utils.java:377)
+	at java.lang.Thread.run(Thread.java:680)
+WARN  2012-03-27 21:30:18,352 (SubscriptionManager.java:106) Received error presence package from saros555841@conference.jabber.ccc.de/jrbaca@gmail.com/Saros908674E6, condition: not-authorized, message: A password is required to enter this room
+WARN  2012-03-27 21:30:18,380 (SubscriptionManager.java:106) Received error presence package from saros555841@conference.jabber.ccc.de/jrbaca@gmail.com/Saros908674E6, condition: not-authorized, message: A password is required to enter this room
+WARN  2012-03-27 21:30:19,714 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-27 21:30:34,018 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-27 21:30:34,693 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-27 21:32:05,343 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-27 21:32:05,412 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-27 21:32:14,996 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-27 21:32:16,232 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-27 21:32:16,244 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-27 21:32:16,826 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-27 21:32:16,837 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-27 21:33:40,303 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-27 21:33:40,408 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-27 21:33:46,638 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-27 21:33:46,730 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-27 21:33:51,980 (RemoteEditorManager.java:165) Removing an editor which has never been added: SPath [editorType=txt, path=src/Test.java, project=RandomIdea 2]
+WARN  2012-03-27 21:33:51,981 (SharedProjectFileDecorator.java:222) resource should not be null
+WARN  2012-03-27 21:36:53,156 (SharedProjectFileDecorator.java:134) path object should not be null

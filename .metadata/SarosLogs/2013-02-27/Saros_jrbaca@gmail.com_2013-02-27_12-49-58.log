@@ -1,0 +1,36 @@
+INFO  2013-02-27 12:49:56,028 (Saros.java:250) Starting Saros 11.12.9.r3685 running:
+  Java Version: 1.6.0_41
+  Java Vendor: Apple Inc.
+  Eclipse Runtime Version: 3.7.0.v20110110
+  Operating System: Mac OS X (10.8.2)
+  Hardware Architecture: i386
+DEBUG 2013-02-27 12:49:56,767 (StreamServiceManager.java:228) StreamServices added:
+  SendFile
+  VideoSharing
+  ArchiveProject
+  AudioService
+INFO  2013-02-27 12:49:56,782 (XMPPAccountStore.java:106) loaded 1 accounts
+INFO  2013-02-27 12:49:56,811 (StatisticManager.java:303) Current feedback settings:
+  Feedback disabled: false
+  Feedback interval: 5
+  Statistic submission allowed: false
+  Pseudonym submission allowed: false
+INFO  2013-02-27 12:49:56,826 (ErrorLogManager.java:306) Current error log settings:
+  Error log submission allowed: false
+  Full Error log submission allowed: false
+DEBUG 2013-02-27 12:49:56,951 (SarosNet.java:206) Socks5Proxy properties changed. Socks5Proxy started on port 7777...
+DEBUG 2013-02-27 12:49:57,154 (SarosNet.java:428) New Connection State == CONNECTING
+DEBUG 2013-02-27 12:49:58,509 (SarosNet.java:428) [jrbaca@gmail.com/SarosDC70EEEF] New Connection State == CONNECTED
+DEBUG 2013-02-27 12:49:58,576 (DataTransferManager.java:674) Prepare bytestreams for XMPP connection. Used transport order: [XEP 65 SOCKS5, XEP 47 In-Band Bytestream]
+DEBUG 2013-02-27 12:49:58,586 (SkypeManager.java:280) Refreshing Skype username cache...
+DEBUG 2013-02-27 12:50:00,018 (SharedDocumentProvider.java:79) SharedDocumentProvider created by Eclipse
+DEBUG 2013-02-27 12:50:07,120 (StartupSaros.java:66) de.fu_berlin.inf.dpp.testmode=null
+DEBUG 2013-02-27 12:50:07,350 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: brb712@gmail.com/androidce92224f1835
+DEBUG 2013-02-27 12:50:07,353 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: grizz97@gmail.com/android_talkf05a0cf1747d
+DEBUG 2013-02-27 12:50:07,410 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: gsbaca@gmail.com/android_talk6fc2ea935740
+DEBUG 2013-02-27 12:50:07,463 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: benrsilva@gmail.com/android23d8049d4142
+DEBUG 2013-02-27 12:50:07,765 (WhiteboardManager.java:108) WhiteboardManager instantiated
+DEBUG 2013-02-27 12:50:07,819 (DocumentRecord.java:93) Added Node: attr(136199460781649806) name=svg
+DEBUG 2013-02-27 12:50:07,873 (StunHelper.java:121) Added WAN-IP: 70.88.161.146 (through 10.43.193.11)
+DEBUG 2013-02-27 12:54:57,259 (SarosNet.java:428) [jrbaca@gmail.com/SarosDC70EEEF] New Connection State == DISCONNECTING
+DEBUG 2013-02-27 12:54:57,416 (SarosNet.java:428) New Connection State == NOT_CONNECTED

@@ -1,0 +1,365 @@
+INFO  2012-03-27 19:01:40,453 (Saros.java:250) Starting Saros 11.12.9.r3685 running:
+  Java Version: 1.6.0_29
+  Java Vendor: Apple Inc.
+  Eclipse Runtime Version: 3.7.0.v20110110
+  Operating System: Mac OS X (10.7.3)
+  Hardware Architecture: i386
+INFO  2012-03-27 19:01:40,830 (XMPPAccountStore.java:106) loaded 1 accounts
+INFO  2012-03-27 19:01:40,835 (StatisticManager.java:303) Current feedback settings:
+  Feedback disabled: false
+  Feedback interval: 5
+  Statistic submission allowed: false
+  Pseudonym submission allowed: false
+INFO  2012-03-27 19:01:40,852 (ErrorLogManager.java:306) Current error log settings:
+  Error log submission allowed: false
+  Full Error log submission allowed: false
+DEBUG 2012-03-27 19:01:40,858 (StreamServiceManager.java:228) StreamServices added:
+  AudioService
+  VideoSharing
+  ArchiveProject
+  SendFile
+DEBUG 2012-03-27 19:01:40,950 (SarosNet.java:206) Socks5Proxy properties changed. Socks5Proxy started on port 7777...
+DEBUG 2012-03-27 19:01:41,012 (StunHelper.java:128) Error while performing STUN: No route to host
+DEBUG 2012-03-27 19:01:41,013 (StunHelper.java:128) Error while performing STUN: No route to host
+DEBUG 2012-03-27 19:01:41,145 (SarosNet.java:428) New Connection State == CONNECTING
+DEBUG 2012-03-27 19:01:42,782 (StunHelper.java:128) Error while performing STUN: No route to host
+DEBUG 2012-03-27 19:01:42,792 (StunHelper.java:128) Error while performing STUN: No route to host
+DEBUG 2012-03-27 19:01:43,279 (SarosNet.java:428) [jrbaca@gmail.com/Saros908674E6] New Connection State == CONNECTED
+DEBUG 2012-03-27 19:01:43,411 (DataTransferManager.java:674) Prepare bytestreams for XMPP connection. Used transport order: [XEP 65 SOCKS5, XEP 47 In-Band Bytestream]
+DEBUG 2012-03-27 19:01:43,417 (SkypeManager.java:280) Refreshing Skype username cache...
+DEBUG 2012-03-27 19:01:43,475 (SharedDocumentProvider.java:79) SharedDocumentProvider created by Eclipse
+DEBUG 2012-03-27 19:01:45,470 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: brb712@gmail.com/android85c1f1876b8c
+DEBUG 2012-03-27 19:01:45,609 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: jwewsuk@gmail.com/androida0083275ef1a
+DEBUG 2012-03-27 19:01:45,624 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: 2kdsebqm86njj298ihpmymc8ki@public.talk.google.com/gmail.3FAE4FCA
+WARN  2012-03-27 19:01:45,661 (DiscoveryManager.java:439) Service Discovery failed on recipient lightningzygella@gmail.com/Talk.v10400871077 server:xmpp.l.google.com:
+feature-not-implemented(501)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:448)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:414)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.querySupport(DiscoveryManager.java:436)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isFeatureSupported(DiscoveryManager.java:387)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.getSupportingPresence(DiscoveryManager.java:289)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isSarosSupported(DiscoveryManager.java:207)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager$2$1.run(DiscoveryManager.java:329)
+	at de.fu_berlin.inf.dpp.util.Utils$6.run(Utils.java:377)
+	at java.lang.Thread.run(Thread.java:680)
+DEBUG 2012-03-27 19:01:46,253 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: lightningzygella@gmail.com/SarosDF3CC8B3
+DEBUG 2012-03-27 19:01:47,070 (StartupSaros.java:66) de.fu_berlin.inf.dpp.testmode=null
+DEBUG 2012-03-27 19:01:47,101 (WhiteboardManager.java:108) WhiteboardManager instantiated
+DEBUG 2012-03-27 19:01:47,117 (DocumentRecord.java:93) Added Node: attr(133289650711582498) name=svg
+DEBUG 2012-03-27 19:01:58,427 (DiscoveryManager.java:96) Clearing cache entry of buddy brb712@gmail.com/android85c1f1876b8c: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="account" name="Google Talk User Account" type="registered"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/disco#items"/></query>
+DEBUG 2012-03-27 19:01:59,009 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: brb712@gmail.com/android85c1f1876b8c
+DEBUG 2012-03-27 19:02:02,164 (StunHelper.java:121) Added WAN-IP: 174.56.67.114 (through 192.168.1.115)
+DEBUG 2012-03-27 19:04:24,637 (DiscoveryManager.java:96) Clearing cache entry of buddy brb712@gmail.com/android85c1f1876b8c: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="account" name="Google Talk User Account" type="registered"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/disco#items"/></query>
+DEBUG 2012-03-27 19:04:25,182 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: brb712@gmail.com/android85c1f1876b8c
+DEBUG 2012-03-27 19:06:11,406 (DiscoveryManager.java:96) Clearing cache entry of buddy 2kdsebqm86njj298ihpmymc8ki@public.talk.google.com/gmail.3FAE4FCA: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="client" name="null" type="pc"/><feature var="http://jabber.org/protocol/disco#info"/></query>
+DEBUG 2012-03-27 19:07:13,737 (DiscoveryManager.java:96) Clearing cache entry of buddy brb712@gmail.com/android85c1f1876b8c: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="account" name="Google Talk User Account" type="registered"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/disco#items"/></query>
+DEBUG 2012-03-27 19:07:14,186 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: brb712@gmail.com/android85c1f1876b8c
+DEBUG 2012-03-27 19:08:47,231 (DiscoveryManager.java:96) Clearing cache entry of buddy brb712@gmail.com/android85c1f1876b8c: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="account" name="Google Talk User Account" type="registered"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/disco#items"/></query>
+DEBUG 2012-03-27 19:08:49,483 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: brb712@gmail.com/android85c1f1876b8c
+DEBUG 2012-03-27 19:14:52,501 (DiscoveryManager.java:96) Clearing cache entry of buddy lightningzygella@gmail.com/SarosDF3CC8B3: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="client" name="Smack" type="pc"/><feature var="http://jabber.org/protocol/xhtml-im"/><feature var="http://jabber.org/protocol/muc"/><feature var="http://jabber.org/protocol/bytestreams"/><feature var="http://jabber.org/protocol/commands"/><feature var="de.fu_berlin.inf.dpp"/></query>
+WARN  2012-03-27 19:15:58,656 (DiscoveryManager.java:439) Service Discovery failed on recipient lightningzygella@gmail.com/Talk.v10400871077 server:xmpp.l.google.com:
+feature-not-implemented(501)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:448)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:414)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.querySupport(DiscoveryManager.java:436)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isFeatureSupported(DiscoveryManager.java:387)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.getSupportingPresence(DiscoveryManager.java:289)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isSarosSupported(DiscoveryManager.java:207)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager$2$1.run(DiscoveryManager.java:329)
+	at de.fu_berlin.inf.dpp.util.Utils$6.run(Utils.java:377)
+	at java.lang.Thread.run(Thread.java:680)
+WARN  2012-03-27 19:15:59,043 (DiscoveryManager.java:439) Service Discovery failed on recipient lightningzygella@gmail.com/Talk.v10400871077 server:xmpp.l.google.com:
+feature-not-implemented(501)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:448)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:414)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.querySupport(DiscoveryManager.java:436)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isFeatureSupported(DiscoveryManager.java:387)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.getSupportingPresence(DiscoveryManager.java:289)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isSarosSupported(DiscoveryManager.java:207)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager$2$1.run(DiscoveryManager.java:329)
+	at de.fu_berlin.inf.dpp.util.Utils$6.run(Utils.java:377)
+	at java.lang.Thread.run(Thread.java:680)
+DEBUG 2012-03-27 19:15:59,200 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: lightningzygella@gmail.com/Saros4399906E
+DEBUG 2012-03-27 19:16:19,236 (DiscoveryManager.java:96) Clearing cache entry of buddy brb712@gmail.com/android85c1f1876b8c: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="account" name="Google Talk User Account" type="registered"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/disco#items"/></query>
+DEBUG 2012-03-27 19:16:19,603 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: brb712@gmail.com/android85c1f1876b8c
+DEBUG 2012-03-27 19:25:46,356 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: jasondude100@gmail.com/gmail.3D9EC732
+DEBUG 2012-03-27 19:25:58,528 (DiscoveryManager.java:96) Clearing cache entry of buddy brb712@gmail.com/android85c1f1876b8c: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="account" name="Google Talk User Account" type="registered"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/disco#items"/></query>
+DEBUG 2012-03-27 19:25:59,045 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: brb712@gmail.com/android85c1f1876b8c
+DEBUG 2012-03-27 19:26:13,354 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: maximusjohnsonus@gmail.com/gmail.471F5639
+DEBUG 2012-03-27 19:28:43,804 (DiscoveryManager.java:96) Clearing cache entry of buddy jasondude100@gmail.com/gmail.3D9EC732: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="client" name="null" type="pc"/><feature var="http://jabber.org/protocol/disco#info"/></query>
+DEBUG 2012-03-27 19:30:25,285 (DiscoveryManager.java:96) Clearing cache entry of buddy brb712@gmail.com/android85c1f1876b8c: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="account" name="Google Talk User Account" type="registered"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/disco#items"/></query>
+DEBUG 2012-03-27 19:30:25,912 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: brb712@gmail.com/android85c1f1876b8c
+DEBUG 2012-03-27 19:31:28,883 (DiscoveryManager.java:96) Clearing cache entry of buddy brb712@gmail.com/android85c1f1876b8c: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="account" name="Google Talk User Account" type="registered"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/disco#items"/></query>
+DEBUG 2012-03-27 19:31:29,558 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: brb712@gmail.com/android85c1f1876b8c
+DEBUG 2012-03-27 19:36:13,352 (DiscoveryManager.java:96) Clearing cache entry of buddy brb712@gmail.com/android85c1f1876b8c: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="account" name="Google Talk User Account" type="registered"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/disco#items"/></query>
+DEBUG 2012-03-27 19:36:14,171 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: brb712@gmail.com/android85c1f1876b8c
+DEBUG 2012-03-27 19:46:14,456 (DiscoveryManager.java:96) Clearing cache entry of buddy brb712@gmail.com/android85c1f1876b8c: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="account" name="Google Talk User Account" type="registered"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/disco#items"/></query>
+DEBUG 2012-03-27 19:46:14,961 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: brb712@gmail.com/android85c1f1876b8c
+DEBUG 2012-03-27 19:52:26,279 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: jasondude100@gmail.com/gmail.3D9EC732
+DEBUG 2012-03-27 19:52:26,895 (DiscoveryManager.java:96) Clearing cache entry of buddy jasondude100@gmail.com/gmail.3D9EC732: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="client" name="null" type="pc"/><feature var="http://jabber.org/protocol/disco#info"/></query>
+DEBUG 2012-03-27 19:52:42,551 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: 3cxu2b8tb7q8m23zi597u24r0y@public.talk.google.com/gmail.5063D315
+DEBUG 2012-03-27 19:52:46,658 (DiscoveryManager.java:96) Clearing cache entry of buddy 3cxu2b8tb7q8m23zi597u24r0y@public.talk.google.com/gmail.5063D315: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="client" name="null" type="pc"/><feature var="http://jabber.org/protocol/disco#info"/></query>
+DEBUG 2012-03-27 19:56:55,905 (DiscoveryManager.java:96) Clearing cache entry of buddy brb712@gmail.com/android85c1f1876b8c: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="account" name="Google Talk User Account" type="registered"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/disco#items"/></query>
+DEBUG 2012-03-27 19:56:56,426 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: brb712@gmail.com/android85c1f1876b8c
+DEBUG 2012-03-27 20:04:18,387 (DiscoveryManager.java:96) Clearing cache entry of buddy brb712@gmail.com/android85c1f1876b8c: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="account" name="Google Talk User Account" type="registered"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/disco#items"/></query>
+DEBUG 2012-03-27 20:04:18,891 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: brb712@gmail.com/android85c1f1876b8c
+DEBUG 2012-03-27 20:06:15,801 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: 2kdsebqm86njj298ihpmymc8ki@public.talk.google.com/gmail.3FAE4FCA
+DEBUG 2012-03-27 20:07:31,197 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: 3cxu2b8tb7q8m23zi597u24r0y@public.talk.google.com/gmail.5063D315
+DEBUG 2012-03-27 20:11:59,201 (DiscoveryManager.java:96) Clearing cache entry of buddy 3cxu2b8tb7q8m23zi597u24r0y@public.talk.google.com/gmail.5063D315: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="client" name="null" type="pc"/><feature var="http://jabber.org/protocol/disco#info"/></query>
+DEBUG 2012-03-27 20:12:30,960 (DiscoveryManager.java:96) Clearing cache entry of buddy brb712@gmail.com/android85c1f1876b8c: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="account" name="Google Talk User Account" type="registered"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/disco#items"/></query>
+DEBUG 2012-03-27 20:12:31,361 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: gsbaca@gmail.com/gmail.3ED7E6D6
+DEBUG 2012-03-27 20:13:19,659 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: brb712@gmail.com/android85c1f1876b8c
+DEBUG 2012-03-27 20:21:13,959 (DiscoveryManager.java:96) Clearing cache entry of buddy brb712@gmail.com/android85c1f1876b8c: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="account" name="Google Talk User Account" type="registered"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/disco#items"/></query>
+DEBUG 2012-03-27 20:21:14,440 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: brb712@gmail.com/android85c1f1876b8c
+DEBUG 2012-03-27 20:23:26,106 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: 3cxu2b8tb7q8m23zi597u24r0y@public.talk.google.com/gmail.5063D315
+DEBUG 2012-03-27 20:24:01,448 (DiscoveryManager.java:96) Clearing cache entry of buddy brb712@gmail.com/android85c1f1876b8c: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="account" name="Google Talk User Account" type="registered"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/disco#items"/></query>
+DEBUG 2012-03-27 20:24:02,240 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: brb712@gmail.com/android85c1f1876b8c
+DEBUG 2012-03-27 20:26:43,868 (DiscoveryManager.java:96) Clearing cache entry of buddy brb712@gmail.com/android85c1f1876b8c: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="account" name="Google Talk User Account" type="registered"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/disco#items"/></query>
+DEBUG 2012-03-27 20:26:44,675 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: brb712@gmail.com/android85c1f1876b8c
+DEBUG 2012-03-27 20:40:58,813 (DiscoveryManager.java:96) Clearing cache entry of buddy brb712@gmail.com/android85c1f1876b8c: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="account" name="Google Talk User Account" type="registered"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/disco#items"/></query>
+DEBUG 2012-03-27 20:40:59,371 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: brb712@gmail.com/android85c1f1876b8c
+DEBUG 2012-03-27 20:45:37,553 (DiscoveryManager.java:96) Clearing cache entry of buddy 2kdsebqm86njj298ihpmymc8ki@public.talk.google.com/gmail.3FAE4FCA: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="client" name="null" type="pc"/><feature var="http://jabber.org/protocol/disco#info"/></query>
+DEBUG 2012-03-27 20:46:22,816 (DiscoveryManager.java:96) Clearing cache entry of buddy brb712@gmail.com/android85c1f1876b8c: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="account" name="Google Talk User Account" type="registered"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/disco#items"/></query>
+DEBUG 2012-03-27 20:46:24,665 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: brb712@gmail.com/android85c1f1876b8c
+DEBUG 2012-03-27 20:48:25,185 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: 31x6o27ewhb5b0tk28x0y55tp4@public.talk.google.com/gmail.3E6B8C60
+DEBUG 2012-03-27 20:48:40,291 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: qtgottl@gmail.com/gmail.3E09743B
+DEBUG 2012-03-27 20:50:35,648 (DiscoveryManager.java:96) Clearing cache entry of buddy 31x6o27ewhb5b0tk28x0y55tp4@public.talk.google.com/gmail.3E6B8C60: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="client" name="null" type="pc"/><feature var="http://jabber.org/protocol/disco#info"/></query>
+DEBUG 2012-03-27 21:01:21,500 (DiscoveryManager.java:96) Clearing cache entry of buddy brb712@gmail.com/android85c1f1876b8c: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="account" name="Google Talk User Account" type="registered"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/disco#items"/></query>
+DEBUG 2012-03-27 21:01:22,125 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: brb712@gmail.com/android85c1f1876b8c
+DEBUG 2012-03-27 21:14:53,349 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: miabbbear@gmail.com/gmail.3F98B1E1
+DEBUG 2012-03-27 21:16:03,393 (DiscoveryManager.java:96) Clearing cache entry of buddy miabbbear@gmail.com/gmail.3F98B1E1: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="client" name="null" type="pc"/><feature var="http://jabber.org/protocol/disco#info"/></query>
+DEBUG 2012-03-27 21:16:13,429 (DiscoveryManager.java:96) Clearing cache entry of buddy brb712@gmail.com/android85c1f1876b8c: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="account" name="Google Talk User Account" type="registered"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/disco#items"/></query>
+DEBUG 2012-03-27 21:16:13,939 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: brb712@gmail.com/android85c1f1876b8c
+DEBUG 2012-03-27 21:24:32,923 (DiscoveryManager.java:96) Clearing cache entry of buddy brb712@gmail.com/android85c1f1876b8c: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="account" name="Google Talk User Account" type="registered"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/disco#items"/></query>
+DEBUG 2012-03-27 21:24:33,878 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: brb712@gmail.com/android85c1f1876b8c
+DEBUG 2012-03-27 21:25:22,255 (DiscoveryManager.java:96) Clearing cache entry of buddy qtgottl@gmail.com/gmail.3E09743B: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="client" name="null" type="pc"/><feature var="http://jabber.org/protocol/disco#info"/></query>
+DEBUG 2012-03-27 21:28:07,277 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: burnett98@gmail.com/AdiumFDEE2C45
+DEBUG 2012-03-27 21:28:26,014 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: burnett98@gmail.com/SarosF6AD93C1
+DEBUG 2012-03-27 21:30:02,920 (VersionManager.java:362) Version request from burnett98@gmail.com/SarosF6AD93C1
+DEBUG 2012-03-27 21:30:02,920 (VersionManager.java:379) Sending version info to burnett98@gmail.com/SarosF6AD93C1
+INFO  2012-03-27 21:30:13,376 (BytestreamTransport.java:73) Received request to establish a IBB bytestream connection from burnett98@gmail.com/SarosF6AD93C1
+DEBUG 2012-03-27 21:30:13,401 (DataTransferManager.java:492) Bytestream connection changed IBB
+DEBUG 2012-03-27 21:30:13,401 (BinaryChannelConnection.java:54) IBB [burnett98@gmail.com/SarosF6AD93C1] ReceiverThread started.
+DEBUG 2012-03-27 21:30:14,360 (InvitationHandler.java:60) Inv[burnett98@gmail.com/SarosF6AD93C1] : Received invitation (invitationID: -5284000000412737772, sessionID: 555841, colorID: 1, sarosVersion: 11.12.9.r3685, sarosComp: OK)
+DEBUG 2012-03-27 21:30:14,382 (IncomingSessionNegotiation.java:74) Inv[burnett98@gmail.com/SarosF6AD93C1] : Determining version...
+DEBUG 2012-03-27 21:30:14,383 (MUCSessionPreferencesNegotiatingManager.java:73) Got hosts Communication Config: server conference.jabber.ccc.de room SAROS555841 pw -867092120
+DEBUG 2012-03-27 21:30:17,202 (IncomingSessionNegotiation.java:205) Inv[burnett98@gmail.com/SarosF6AD93C1] : Invitation accepted.
+INFO  2012-03-27 21:30:17,297 (SarosSessionManager.java:234) Saros session joined
+DEBUG 2012-03-27 21:30:17,297 (IncomingSessionNegotiation.java:213) Inv[burnett98@gmail.com/SarosF6AD93C1] : Joined the session.
+DEBUG 2012-03-27 21:30:17,298 (IncomingSessionNegotiation.java:229) Inv[burnett98@gmail.com/SarosF6AD93C1] : Completing invitation...
+DEBUG 2012-03-27 21:30:17,332 (WhiteboardManager.java:55) Session Started, set Color: RGB {255, 0, 128}
+DEBUG 2012-03-27 21:30:17,342 (ColorUtils.java:21) set foregroundcolor RGB {255, 0, 128}
+DEBUG 2012-03-27 21:30:17,444 (MUCManager.java:73) Joining MUC...
+DEBUG 2012-03-27 21:30:17,484 (MUCSession.java:238) Trying to create room.
+DEBUG 2012-03-27 21:30:17,944 (UserListHandler.java:52) Inv[burnett98@gmail.com/SarosF6AD93C1] : Received userList
+DEBUG 2012-03-27 21:30:17,982 (ActivitiesHandler.java:113) Rcvd (002) [burnett98@gmail.com/SarosF6AD93C1] : [[0:ChangeColorActivityDataObject(burnett98@gmail.com/SarosF6AD93C1 jrbaca@gmail.com/Saros908674E6)], [1:ChangeColorActivityDataObject(jrbaca@gmail.com/Saros908674E6 jrbaca@gmail.com/Saros908674E6)]]
+DEBUG 2012-03-27 21:30:17,984 (ActivitySequencer.java:764) Received activityDataObject but ActivitySequencer has not yet been started: [0:ChangeColorActivityDataObject(burnett98@gmail.com/SarosF6AD93C1 jrbaca@gmail.com/Saros908674E6)]
+DEBUG 2012-03-27 21:30:17,984 (ActivitySequencer.java:210) For burnett98@gmail.com/SarosF6AD93C1 there are 1 activityDataObjects queued. First queued: [0:ChangeColorActivityDataObject(burnett98@gmail.com/SarosF6AD93C1 jrbaca@gmail.com/Saros908674E6)], expected nr: 0
+DEBUG 2012-03-27 21:30:17,984 (ActivitySequencer.java:764) Received activityDataObject but ActivitySequencer has not yet been started: [1:ChangeColorActivityDataObject(jrbaca@gmail.com/Saros908674E6 jrbaca@gmail.com/Saros908674E6)]
+DEBUG 2012-03-27 21:30:17,985 (ActivitiesHandler.java:113) Rcvd (002) [burnett98@gmail.com/SarosF6AD93C1] : [[2:EditorActivityDataObject(type:Activated,path:SPathDataObject [editorType=txt, path=src/Car.java, projectID=807423417])], [3:EditorActivityDataObject(type:Activated,path:no path)]]
+DEBUG 2012-03-27 21:30:17,985 (ActivitySequencer.java:210) For burnett98@gmail.com/SarosF6AD93C1 there are 2 activityDataObjects queued. First queued: [0:ChangeColorActivityDataObject(burnett98@gmail.com/SarosF6AD93C1 jrbaca@gmail.com/Saros908674E6)], expected nr: 0
+DEBUG 2012-03-27 21:30:17,985 (ActivitySequencer.java:764) Received activityDataObject but ActivitySequencer has not yet been started: [2:EditorActivityDataObject(type:Activated,path:SPathDataObject [editorType=txt, path=src/Car.java, projectID=807423417])]
+DEBUG 2012-03-27 21:30:17,986 (ActivitySequencer.java:210) For burnett98@gmail.com/SarosF6AD93C1 there are 3 activityDataObjects queued. First queued: [0:ChangeColorActivityDataObject(burnett98@gmail.com/SarosF6AD93C1 jrbaca@gmail.com/Saros908674E6)], expected nr: 0
+DEBUG 2012-03-27 21:30:17,986 (ActivitySequencer.java:764) Received activityDataObject but ActivitySequencer has not yet been started: [3:EditorActivityDataObject(type:Activated,path:no path)]
+DEBUG 2012-03-27 21:30:18,351 (MUCSession.java:243) not-authorized(401) A password is required to enter this room
+WARN  2012-03-27 21:30:18,352 (SubscriptionManager.java:106) Received error presence package from saros555841@conference.jabber.ccc.de/jrbaca@gmail.com/Saros908674E6, condition: not-authorized, message: A password is required to enter this room
+WARN  2012-03-27 21:30:18,380 (SubscriptionManager.java:106) Received error presence package from saros555841@conference.jabber.ccc.de/jrbaca@gmail.com/Saros908674E6, condition: not-authorized, message: A password is required to enter this room
+DEBUG 2012-03-27 21:30:19,318 (MUCSession.java:269) MUC joined. Server: conference.jabber.ccc.de Room: SAROS555841 Password -867092120
+DEBUG 2012-03-27 21:30:19,321 (MUCManagerSingletonWrapperChatView.java:45) MUCManagerSingletonWrapperChatView created / joined.
+DEBUG 2012-03-27 21:30:19,323 (MUCSession.java:129) processPacket called
+DEBUG 2012-03-27 21:30:19,329 (MUCStateManager.java:99) Incoming Message from saros555841@conference.jabber.ccc.de/burnett98@gmail.com/SarosF6AD93C1 with state: active
+DEBUG 2012-03-27 21:30:19,329 (MUCSession.java:92) stateChanged fired with state: active
+DEBUG 2012-03-27 21:30:19,330 (ChatRoomsComposite.java:408) Sender: Sam Burnnet (burnett98@gmail.com)
+DEBUG 2012-03-27 21:30:19,331 (ConsistencyAction.java:99) Inconsistency indicator goes: off
+DEBUG 2012-03-27 21:30:19,331 (ChatRoomsComposite.java:409) Color: Color {141, 206, 231}
+DEBUG 2012-03-27 21:30:19,388 (ConsistencyAction.java:99) Inconsistency indicator goes: off
+INFO  2012-03-27 21:30:19,395 (ParticipantCollector.java:147) Session started: Current number of participants: 2
+INFO  2012-03-27 21:30:19,533 (StatisticManager.java:283) Session count: 9
+DEBUG 2012-03-27 21:30:19,543 (IncomingSessionNegotiation.java:247) Inv[burnett98@gmail.com/SarosF6AD93C1] : isInvitationComplete has been set to true.
+DEBUG 2012-03-27 21:30:19,545 (IncomingSessionNegotiation.java:251) Inv[burnett98@gmail.com/SarosF6AD93C1] : Invitation complete confirmation sent.
+DEBUG 2012-03-27 21:30:19,547 (IncomingSessionNegotiation.java:256) Inv[burnett98@gmail.com/SarosF6AD93C1] : Invitation has completed successfully.
+DEBUG 2012-03-27 21:30:19,547 (IncomingSessionNegotiation.java:260) I am a driver
+DEBUG 2012-03-27 21:30:19,547 (SarosSession.java:478) The invitation of [jrbaca@gmail.com/Saros908674E6]  is now complete
+WARN  2012-03-27 21:30:19,714 (SharedProjectFileDecorator.java:134) path object should not be null
+DEBUG 2012-03-27 21:30:19,993 (MUCSession.java:129) processPacket called
+DEBUG 2012-03-27 21:30:19,994 (MUCStateManager.java:99) Incoming Message from saros555841@conference.jabber.ccc.de/jrbaca@gmail.com/Saros908674E6 with state: active
+DEBUG 2012-03-27 21:30:19,994 (MUCSession.java:92) stateChanged fired with state: active
+DEBUG 2012-03-27 21:30:19,996 (ChatRoomsComposite.java:408) Sender: You
+DEBUG 2012-03-27 21:30:19,997 (ChatRoomsComposite.java:409) Color: Color {255, 0, 128}
+DEBUG 2012-03-27 21:30:20,002 (UserListHandler.java:52) Inv[burnett98@gmail.com/SarosF6AD93C1] : Received userList
+DEBUG 2012-03-27 21:30:20,656 (ActivitiesHandler.java:113) Rcvd (001) [burnett98@gmail.com/SarosF6AD93C1] : [[4:de.fu_berlin.inf.dpp.activities.serializable.ProjectsAddedActivityDataObject@4b72cac6]]
+DEBUG 2012-03-27 21:30:20,657 (ActivitySequencer.java:210) For burnett98@gmail.com/SarosF6AD93C1 there are 4 activityDataObjects queued. First queued: [0:ChangeColorActivityDataObject(burnett98@gmail.com/SarosF6AD93C1 jrbaca@gmail.com/Saros908674E6)], expected nr: 0
+INFO  2012-03-27 21:30:20,658 (SarosSession.java:769) Activity EditorActivityDataObject(type:Activated,path:SPathDataObject [editorType=txt, path=src/Car.java, projectID=807423417]) for Project 807423417 was queued.
+INFO  2012-03-27 21:30:20,659 (SarosSession.java:769) Activity EditorActivityDataObject(type:Activated,path:no path) for Project null was queued.
+INFO  2012-03-27 21:30:20,813 (ChangeColorManager.java:85) received color: RGB {141, 206, 231} from buddy: burnett98
+INFO  2012-03-27 21:30:20,815 (SarosAnnotation.java:138) Set new User Color: RGB {141, 206, 231}
+INFO  2012-03-27 21:30:20,819 (ChangeColorManager.java:85) received color: RGB {255, 0, 128} from buddy: jrbaca
+INFO  2012-03-27 21:30:20,820 (SarosAnnotation.java:138) Set new User Color: RGB {255, 0, 128}
+INFO  2012-03-27 21:30:20,849 (ProjectNegotiationObservable.java:61) This is ProjectNegotiation number 1 in this session. There are 0 process(es) in this session
+DEBUG 2012-03-27 21:30:20,864 (ChatRoomsComposite.java:408) Sender: Sam Burnnet (burnett98@gmail.com)
+DEBUG 2012-03-27 21:30:20,865 (ChatRoomsComposite.java:409) Color: Color {141, 206, 231}
+DEBUG 2012-03-27 21:30:20,887 (ChatRoomsComposite.java:408) Sender: You
+DEBUG 2012-03-27 21:30:20,888 (ChatRoomsComposite.java:409) Color: Color {255, 0, 128}
+DEBUG 2012-03-27 21:30:20,912 (ChatRoomsComposite.java:408) Sender: Sam Burnnet (burnett98@gmail.com)
+DEBUG 2012-03-27 21:30:20,913 (ChatRoomsComposite.java:409) Color: Color {141, 206, 231}
+DEBUG 2012-03-27 21:30:20,923 (SXEIncomingSynchronizationProcess.java:66) SXE(3938) invitation from burnett98@gmail.com/SarosF6AD93C1 received
+DEBUG 2012-03-27 21:30:20,953 (ChatRoomsComposite.java:408) Sender: You
+DEBUG 2012-03-27 21:30:20,954 (ChatRoomsComposite.java:409) Color: Color {255, 0, 128}
+DEBUG 2012-03-27 21:30:20,984 (IncomingProjectNegotiation.java:107) 807423417: RandomIdea
+DEBUG 2012-03-27 21:30:20,986 (SXEController.java:537) Whiteboard state changed from INIT to CONNECTING
+DEBUG 2012-03-27 21:30:20,987 (SXEIncomingSynchronizationProcess.java:92) SXE(3938) queue incoming records from now
+DEBUG 2012-03-27 21:30:20,988 (SarosSXETransmitter.java:146) SXE send accept-state to burnett98@gmail.com/SarosF6AD93C1 waiting for [state]
+DEBUG 2012-03-27 21:30:21,036 (EnterProjectNamePage.java:469) 807423417: RandomIdea
+DEBUG 2012-03-27 21:30:21,551 (SXEIncomingSynchronizationProcess.java:99) SXE(3938) state received
+DEBUG 2012-03-27 21:30:21,552 (SXEController.java:137) SXE (3938): receive state and start session at invitee side
+DEBUG 2012-03-27 21:30:21,553 (DocumentRecord.java:93) Added Node: attr(133290530758620608) name=svg
+DEBUG 2012-03-27 21:30:28,463 (IncomingProjectNegotiation.java:662) Inv[burnett98@gmail.com/SarosF6AD93C1] : Creating new project...
+DEBUG 2012-03-27 21:30:29,235 (IncomingProjectNegotiation.java:356) compute required Files for project RandomIdea 2 with ID: 807423417
+DEBUG 2012-03-27 21:30:29,276 (IncomingProjectNegotiation.java:789) Inv[burnett98@gmail.com/SarosF6AD93C1] : Computing file list diff...
+DEBUG 2012-03-27 21:30:29,286 (XMPPTransmitter.java:832) fileLists.size(): 1
+DEBUG 2012-03-27 21:30:30,665 (XMPPTransmitter.java:340) Receiving archive
+DEBUG 2012-03-27 21:30:31,251 (ActivitiesHandler.java:113) Rcvd (001) [burnett98@gmail.com/SarosF6AD93C1] : [[5:StopActivityDataObject (id: 213021812-6787766743787777308, type: LOCKREQUEST, state: INITIATED, initiator: burnett98@gmail.com/SarosF6AD93C1, affected user: jrbaca@gmail.com/Saros908674E6, src: burnett98@gmail.com/SarosF6AD93C1)]]
+DEBUG 2012-03-27 21:30:31,300 (EditorManager.java:1823) Lock all editors
+DEBUG 2012-03-27 21:30:31,306 (XMPPTransmitter.java:649) Sent (001) [burnett98@gmail.com/SarosF6AD93C1] [[0:StopActivityDataObject (id: 213021812-6787766743787777308, type: LOCKREQUEST, state: ACKNOWLEDGED, initiator: burnett98@gmail.com/SarosF6AD93C1, affected user: jrbaca@gmail.com/Saros908674E6, src: jrbaca@gmail.com/Saros908674E6)]]
+DEBUG 2012-03-27 21:30:31,765 (ActivitiesHandler.java:113) Rcvd (001) [burnett98@gmail.com/SarosF6AD93C1] : [[6:StopActivityDataObject (id: 213021812-6787766743787777308, type: UNLOCKREQUEST, state: INITIATED, initiator: burnett98@gmail.com/SarosF6AD93C1, affected user: jrbaca@gmail.com/Saros908674E6, src: burnett98@gmail.com/SarosF6AD93C1)]]
+DEBUG 2012-03-27 21:30:31,811 (EditorManager.java:1825) Unlock all editors
+DEBUG 2012-03-27 21:30:31,814 (XMPPTransmitter.java:649) Sent (001) [burnett98@gmail.com/SarosF6AD93C1] [[1:StopActivityDataObject (id: 213021812-6787766743787777308, type: UNLOCKREQUEST, state: ACKNOWLEDGED, initiator: burnett98@gmail.com/SarosF6AD93C1, affected user: jrbaca@gmail.com/Saros908674E6, src: jrbaca@gmail.com/Saros908674E6)]]
+DEBUG 2012-03-27 21:30:32,976 (IncomingProjectNegotiation.java:107) 807423417: RandomIdea
+DEBUG 2012-03-27 21:30:32,977 (IncomingProjectNegotiation.java:107) 807423417: RandomIdea
+DEBUG 2012-03-27 21:30:32,978 (IncomingProjectNegotiation.java:281) 807423417&&&&423077527260079008.zip
+DEBUG 2012-03-27 21:30:32,978 (IncomingProjectNegotiation.java:935) Inv[burnett98@gmail.com/SarosF6AD93C1] : Writing archive to disk...
+DEBUG 2012-03-27 21:30:33,007 (FileUtils.java:203) File written to disk: .project
+DEBUG 2012-03-27 21:30:33,009 (FileUtils.java:203) File written to disk: .classpath
+DEBUG 2012-03-27 21:30:33,011 (FileUtils.java:203) File written to disk: src/Car.java
+DEBUG 2012-03-27 21:30:33,011 (FileUtils.java:207) Unpacked archive in 0 s
+DEBUG 2012-03-27 21:30:33,067 (ProjectDeltaVisitor.java:262) Resource .project changed
+DEBUG 2012-03-27 21:30:33,274 (IncomingProjectNegotiation.java:107) 807423417: RandomIdea
+DEBUG 2012-03-27 21:30:33,275 (IncomingProjectNegotiation.java:107) 807423417: RandomIdea
+DEBUG 2012-03-27 21:30:33,276 (IncomingProjectNegotiation.java:107) 807423417: RandomIdea
+DEBUG 2012-03-27 21:30:33,276 (IncomingProjectNegotiation.java:107) 807423417: RandomIdea
+DEBUG 2012-03-27 21:30:33,276 (IncomingProjectNegotiation.java:107) 807423417: RandomIdea
+DEBUG 2012-03-27 21:30:33,276 (XMPPTransmitter.java:649) Sent (001) [burnett98@gmail.com/SarosF6AD93C1] [[2:FolderActivityDataObject(type: Created, path: SPathDataObject [editorType=txt, path=src, projectID=807423417])]]
+DEBUG 2012-03-27 21:30:33,277 (IncomingProjectNegotiation.java:107) 807423417: RandomIdea
+DEBUG 2012-03-27 21:30:33,278 (IncomingProjectNegotiation.java:107) 807423417: RandomIdea
+DEBUG 2012-03-27 21:30:33,542 (IncomingProjectNegotiation.java:107) 807423417: RandomIdea
+DEBUG 2012-03-27 21:30:33,542 (IncomingProjectNegotiation.java:107) 807423417: RandomIdea
+INFO  2012-03-27 21:30:33,544 (SarosSession.java:796) All activities for project "807423417" will be executed now
+DEBUG 2012-03-27 21:30:33,546 (SharedProjectDecorator.java:80) PROJECT ADDED: 807423417
+DEBUG 2012-03-27 21:30:33,662 (SharedProjectDecorator.java:137) Decoration update
+DEBUG 2012-03-27 21:30:33,663 (SharedProjectDecorator.java:137) Decoration update
+WARN  2012-03-27 21:30:34,018 (SharedProjectFileDecorator.java:134) path object should not be null
+DEBUG 2012-03-27 21:30:34,074 (EditorAPI.java:308) IWorkbenchPage.getEditorReferences() returned IEditorPart which needs to be restored: mainClass.java
+DEBUG 2012-03-27 21:30:34,376 (EditorAPI.java:308) IWorkbenchPage.getEditorReferences() returned IEditorPart which needs to be restored: mainMathCalculator.java
+DEBUG 2012-03-27 21:30:34,455 (EditorAPI.java:308) IWorkbenchPage.getEditorReferences() returned IEditorPart which needs to be restored: selectionMenu.java
+DEBUG 2012-03-27 21:30:34,524 (EditorAPI.java:308) IWorkbenchPage.getEditorReferences() returned IEditorPart which needs to be restored: areaCalc.java
+DEBUG 2012-03-27 21:30:34,605 (EditorAPI.java:308) IWorkbenchPage.getEditorReferences() returned IEditorPart which needs to be restored: MainClass.java
+DEBUG 2012-03-27 21:30:34,691 (EditorManager.java:387) areaCalc.java
+DEBUG 2012-03-27 21:30:34,692 (EditorManager.java:387) selectionMenu.java
+DEBUG 2012-03-27 21:30:34,692 (EditorManager.java:387) mainMathCalculator.java
+DEBUG 2012-03-27 21:30:34,692 (EditorManager.java:387) Main.java
+DEBUG 2012-03-27 21:30:34,692 (EditorManager.java:387) MainClass.java
+DEBUG 2012-03-27 21:30:34,693 (EditorManager.java:387) mainClass.java
+WARN  2012-03-27 21:30:34,693 (SharedProjectFileDecorator.java:134) path object should not be null
+DEBUG 2012-03-27 21:30:34,695 (XMPPTransmitter.java:649) Sent (001) [burnett98@gmail.com/SarosF6AD93C1] [[3:EditorActivityDataObject(type:Activated,path:no path)]]
+DEBUG 2012-03-27 21:30:41,466 (XMPPTransmitter.java:649) Sent (001) [burnett98@gmail.com/SarosF6AD93C1] [[4:EditorActivityDataObject(type:Activated,path:SPathDataObject [editorType=txt, path=src/Car.java, projectID=807423417])]]
+DEBUG 2012-03-27 21:30:41,469 (XMPPTransmitter.java:649) Sent (002) [burnett98@gmail.com/SarosF6AD93C1] [[5:TextSelectionActivityDataObject(offset:0,length:0,src:jrbaca@gmail.com/Saros908674E6,path:SPathDataObject [editorType=txt, path=src/Car.java, projectID=807423417])], [6:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/Car.java, projectID=807423417],range:(0,1))]]
+DEBUG 2012-03-27 21:30:41,483 (EditorListener.java:205) Viewport changed: 0+20
+DEBUG 2012-03-27 21:30:41,772 (XMPPTransmitter.java:649) Sent (004) [burnett98@gmail.com/SarosF6AD93C1] [[7:EditorActivityDataObject(type:Activated,path:SPathDataObject [editorType=txt, path=src/Car.java, projectID=807423417])], [8:EditorActivityDataObject(type:Activated,path:SPathDataObject [editorType=txt, path=src/Car.java, projectID=807423417])], [9:TextSelectionActivityDataObject(offset:0,length:0,src:jrbaca@gmail.com/Saros908674E6,path:SPathDataObject [editorType=txt, path=src/Car.java, projectID=807423417])], [10:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/Car.java, projectID=807423417],range:(0,20))]]
+DEBUG 2012-03-27 21:30:51,125 (XMPPTransmitter.java:649) Sent (001) [burnett98@gmail.com/SarosF6AD93C1] [[11:TextSelectionActivityDataObject(offset:0,length:0,src:jrbaca@gmail.com/Saros908674E6,path:SPathDataObject [editorType=txt, path=src/Car.java, projectID=807423417])]]
+WARN  2012-03-27 21:32:05,343 (SharedProjectFileDecorator.java:134) path object should not be null
+DEBUG 2012-03-27 21:32:05,346 (XMPPTransmitter.java:649) Sent (001) [burnett98@gmail.com/SarosF6AD93C1] [[12:EditorActivityDataObject(type:Activated,path:no path)]]
+WARN  2012-03-27 21:32:05,412 (SharedProjectFileDecorator.java:134) path object should not be null
+DEBUG 2012-03-27 21:32:05,414 (XMPPTransmitter.java:649) Sent (001) [burnett98@gmail.com/SarosF6AD93C1] [[13:EditorActivityDataObject(type:Activated,path:no path)]]
+WARN  2012-03-27 21:32:14,996 (SharedProjectFileDecorator.java:134) path object should not be null
+DEBUG 2012-03-27 21:32:14,998 (XMPPTransmitter.java:649) Sent (001) [burnett98@gmail.com/SarosF6AD93C1] [[14:EditorActivityDataObject(type:Activated,path:no path)]]
+WARN  2012-03-27 21:32:16,232 (SharedProjectFileDecorator.java:134) path object should not be null
+DEBUG 2012-03-27 21:32:16,234 (XMPPTransmitter.java:649) Sent (001) [burnett98@gmail.com/SarosF6AD93C1] [[15:EditorActivityDataObject(type:Activated,path:no path)]]
+WARN  2012-03-27 21:32:16,244 (SharedProjectFileDecorator.java:134) path object should not be null
+DEBUG 2012-03-27 21:32:16,248 (XMPPTransmitter.java:649) Sent (001) [burnett98@gmail.com/SarosF6AD93C1] [[16:EditorActivityDataObject(type:Activated,path:no path)]]
+WARN  2012-03-27 21:32:16,826 (SharedProjectFileDecorator.java:134) path object should not be null
+DEBUG 2012-03-27 21:32:16,828 (XMPPTransmitter.java:649) Sent (001) [burnett98@gmail.com/SarosF6AD93C1] [[17:EditorActivityDataObject(type:Activated,path:no path)]]
+WARN  2012-03-27 21:32:16,837 (SharedProjectFileDecorator.java:134) path object should not be null
+DEBUG 2012-03-27 21:32:16,839 (XMPPTransmitter.java:649) Sent (001) [burnett98@gmail.com/SarosF6AD93C1] [[18:EditorActivityDataObject(type:Activated,path:no path)]]
+DEBUG 2012-03-27 21:32:21,276 (XMPPTransmitter.java:649) Sent (001) [burnett98@gmail.com/SarosF6AD93C1] [[19:EditorActivityDataObject(type:Activated,path:SPathDataObject [editorType=txt, path=src/Car.java, projectID=807423417])]]
+DEBUG 2012-03-27 21:32:21,278 (XMPPTransmitter.java:649) Sent (002) [burnett98@gmail.com/SarosF6AD93C1] [[20:TextSelectionActivityDataObject(offset:0,length:0,src:jrbaca@gmail.com/Saros908674E6,path:SPathDataObject [editorType=txt, path=src/Car.java, projectID=807423417])], [21:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/Car.java, projectID=807423417],range:(0,20))]]
+DEBUG 2012-03-27 21:32:21,579 (XMPPTransmitter.java:649) Sent (003) [burnett98@gmail.com/SarosF6AD93C1] [[22:EditorActivityDataObject(type:Activated,path:SPathDataObject [editorType=txt, path=src/Car.java, projectID=807423417])], [23:TextSelectionActivityDataObject(offset:0,length:0,src:jrbaca@gmail.com/Saros908674E6,path:SPathDataObject [editorType=txt, path=src/Car.java, projectID=807423417])], [24:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/Car.java, projectID=807423417],range:(0,20))]]
+DEBUG 2012-03-27 21:32:27,983 (XMPPTransmitter.java:649) Sent (001) [burnett98@gmail.com/SarosF6AD93C1] [[25:TextSelectionActivityDataObject(offset:277,length:0,src:jrbaca@gmail.com/Saros908674E6,path:SPathDataObject [editorType=txt, path=src/Car.java, projectID=807423417])]]
+DEBUG 2012-03-27 21:32:28,409 (ActivitiesHandler.java:113) Rcvd (001) [burnett98@gmail.com/SarosF6AD93C1] : [[18:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/Car.java, projectID=807423417],range:(0,1))]]
+DEBUG 2012-03-27 21:32:28,590 (XMPPTransmitter.java:649) Sent (001) [burnett98@gmail.com/SarosF6AD93C1] [[26:TextSelectionActivityDataObject(offset:0,length:278,src:jrbaca@gmail.com/Saros908674E6,path:SPathDataObject [editorType=txt, path=src/Car.java, projectID=807423417])]]
+DEBUG 2012-03-27 21:32:43,800 (XMPPTransmitter.java:649) Sent (001) [burnett98@gmail.com/SarosF6AD93C1] [[27:TextSelectionActivityDataObject(offset:278,length:0,src:jrbaca@gmail.com/Saros908674E6,path:SPathDataObject [editorType=txt, path=src/Car.java, projectID=807423417])]]
+DEBUG 2012-03-27 21:33:40,289 (ActivitiesHandler.java:113) Rcvd (001) [burnett98@gmail.com/SarosF6AD93C1] : [[26:EditorActivityDataObject(type:Activated,path:no path)]]
+WARN  2012-03-27 21:33:40,303 (SharedProjectFileDecorator.java:134) path object should not be null
+DEBUG 2012-03-27 21:33:40,407 (ActivitiesHandler.java:113) Rcvd (001) [burnett98@gmail.com/SarosF6AD93C1] : [[27:EditorActivityDataObject(type:Activated,path:no path)]]
+WARN  2012-03-27 21:33:40,408 (SharedProjectFileDecorator.java:134) path object should not be null
+DEBUG 2012-03-27 21:33:46,637 (ActivitiesHandler.java:113) Rcvd (001) [burnett98@gmail.com/SarosF6AD93C1] : [[29:EditorActivityDataObject(type:Activated,path:no path)]]
+WARN  2012-03-27 21:33:46,638 (SharedProjectFileDecorator.java:134) path object should not be null
+DEBUG 2012-03-27 21:33:46,729 (ActivitiesHandler.java:113) Rcvd (001) [burnett98@gmail.com/SarosF6AD93C1] : [[30:EditorActivityDataObject(type:Activated,path:no path)]]
+WARN  2012-03-27 21:33:46,730 (SharedProjectFileDecorator.java:134) path object should not be null
+DEBUG 2012-03-27 21:33:51,979 (ActivitiesHandler.java:113) Rcvd (001) [burnett98@gmail.com/SarosF6AD93C1] : [[31:EditorActivityDataObject(type:Closed,path:SPathDataObject [editorType=txt, path=src/Test.java, projectID=807423417])]]
+WARN  2012-03-27 21:33:51,980 (RemoteEditorManager.java:165) Removing an editor which has never been added: SPath [editorType=txt, path=src/Test.java, project=RandomIdea 2]
+WARN  2012-03-27 21:33:51,981 (SharedProjectFileDecorator.java:222) resource should not be null
+WARN  2012-03-27 21:36:53,156 (SharedProjectFileDecorator.java:134) path object should not be null
+DEBUG 2012-03-27 21:36:53,158 (XMPPTransmitter.java:649) Sent (001) [burnett98@gmail.com/SarosF6AD93C1] [[28:EditorActivityDataObject(type:Closed,path:SPathDataObject [editorType=txt, path=src/Car.java, projectID=807423417])]]
+DEBUG 2012-03-27 21:36:53,294 (XMPPTransmitter.java:649) Sent (001) [burnett98@gmail.com/SarosF6AD93C1] [[29:EditorActivityDataObject(type:Activated,path:no path)]]
+DEBUG 2012-03-27 21:36:55,325 (MUCManagerSingletonWrapperChatView.java:59) MUCManagerSingletonWrapperChatView left / destroyed.
+DEBUG 2012-03-27 21:36:55,326 (SarosSessionManager.java:271) Leave message sent.
+DEBUG 2012-03-27 21:36:55,327 (EditorManager.java:1825) Unlock all editors
+DEBUG 2012-03-27 21:36:55,329 (EditorManager.java:1825) Unlock all editors
+DEBUG 2012-03-27 21:36:55,354 (FollowModeCollector.java:176) Processing follow mode changes took 0.0010 s
+INFO  2012-03-27 21:36:55,400 (ParticipantCollector.java:158) Session ended: Current number of participants: 2
+INFO  2012-03-27 21:36:55,401 (PingPongCentral.java:152) Ping statistics:
+DEBUG 2012-03-27 21:36:55,554 (StatisticManager.java:452) Session statistic:
+  auto.followmode.enabled=false
+  data_transfer.IBB.average_throughput_kbs=0.5
+  data_transfer.IBB.number_of_events=2
+  data_transfer.IBB.total_size_kb=1
+  data_transfer.IBB.total_time_ms=2007
+  eclipse.version=3.7.0.v20110110
+  feedback.disabled=false
+  feedback.survey.interval=5
+  followmode.time.percent=0
+  followmode.time.total=0.0
+  followmode.toggles=0
+  gesture.count=0
+  java.version=1.6.0_29
+  jumped.count=0
+  jumped.driver.count=0
+  jumped.observer.count=0
+  observer.selection.count.witnessed=0
+  observer.selection.count=0
+  os.name=Mac OS X
+  random.user.id=2012-03-23_17-19-01_822024243
+  role.1.duration=6.6
+  role.1=write_access
+  role.changes=0
+  role.driver.duration=6.6
+  role.driver.percent=100
+  role.observer.duration=0.0
+  role.observer.percent=0
+  saros.version=11.12.9.r3685
+  session.count=9
+  session.id=555841
+  session.local.start=2012-03-28T03:36:55.356Z
+  session.time.users.2.percent=100
+  session.time.users.2=6.6
+  session.time=6.6
+  session.users.total=2
+  textedits.chars=0
+  textedits.count=0
+  textedits.nonparallel.chars=0
+  textedits.nonparallel.percent=0
+  textedits.pastes.chars=0
+  textedits.pastes=0
+  user.is.host=false
+  voip.session.count=0
+  voip.time.percent=0
+  voip.time.total=0.0
+INFO  2012-03-27 21:36:55,582 (SessionStatistic.java:289) Writing statistic data to /Users/Joseph/Documents/workspace/.metadata/.plugins/de.fu_berlin.inf.dpp/statistic_2012-03-27/session-data_555841_2012-03-23_17-19-01_822024243_1332905815555.txt
+INFO  2012-03-27 21:36:55,583 (StatisticManager.java:383) Statistic was gathered and saved to /Users/Joseph/Documents/workspace/.metadata/.plugins/de.fu_berlin.inf.dpp/statistic_2012-03-27/session-data_555841_2012-03-23_17-19-01_822024243_1332905815555.txt, but the submission is forbidden by the user.
+INFO  2012-03-27 21:36:55,625 (FeedbackManager.java:70) Session lasted 6 min 36 s
+INFO  2012-03-27 21:36:55,628 (SarosSessionManager.java:286) Session left
+DEBUG 2012-03-27 21:36:55,628 (SarosNet.java:428) [jrbaca@gmail.com/Saros908674E6] New Connection State == DISCONNECTING
+DEBUG 2012-03-27 21:36:55,631 (DataTransferManager.java:701) Close IBB connection
+INFO  2012-03-27 21:36:55,730 (BinaryChannelConnection.java:72) Connection was closed by me. 
+DEBUG 2012-03-27 21:36:55,834 (MUCStateManager.java:99) Incoming Message from saros555841@conference.jabber.ccc.de/jrbaca@gmail.com/Saros908674E6 with state: gone
+DEBUG 2012-03-27 21:36:56,155 (SarosNet.java:428) New Connection State == NOT_CONNECTED

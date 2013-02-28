@@ -1,0 +1,53 @@
+INFO  2012-06-24 14:57:33,331 (Saros.java:250) Starting Saros 11.12.9.r3685 running:
+  Java Version: 1.6.0_33
+  Java Vendor: Apple Inc.
+  Eclipse Runtime Version: 3.7.0.v20110110
+  Operating System: Mac OS X (10.7.4)
+  Hardware Architecture: i386
+INFO  2012-06-24 14:57:35,823 (StatisticManager.java:303) Current feedback settings:
+  Feedback disabled: false
+  Feedback interval: 5
+  Statistic submission allowed: false
+  Pseudonym submission allowed: false
+INFO  2012-06-24 14:57:35,864 (ErrorLogManager.java:306) Current error log settings:
+  Error log submission allowed: false
+  Full Error log submission allowed: false
+INFO  2012-06-24 14:57:35,941 (XMPPAccountStore.java:106) loaded 1 accounts
+DEBUG 2012-06-24 14:57:36,095 (StreamServiceManager.java:228) StreamServices added:
+  SendFile
+  ArchiveProject
+  VideoSharing
+  AudioService
+DEBUG 2012-06-24 14:57:36,497 (SarosNet.java:206) Socks5Proxy properties changed. Socks5Proxy started on port 7777...
+DEBUG 2012-06-24 14:57:37,397 (SarosNet.java:428) New Connection State == CONNECTING
+DEBUG 2012-06-24 14:57:37,986 (StunHelper.java:128) Error while performing STUN: No route to host
+DEBUG 2012-06-24 14:57:37,986 (StunHelper.java:128) Error while performing STUN: No route to host
+DEBUG 2012-06-24 14:57:38,750 (StunHelper.java:128) Error while performing STUN: No route to host
+DEBUG 2012-06-24 14:57:38,752 (StunHelper.java:128) Error while performing STUN: No route to host
+DEBUG 2012-06-24 14:57:39,076 (SarosNet.java:428) [jrbaca@gmail.com/Saros8108727E] New Connection State == CONNECTED
+DEBUG 2012-06-24 14:57:39,151 (DataTransferManager.java:674) Prepare bytestreams for XMPP connection. Used transport order: [XEP 65 SOCKS5, XEP 47 In-Band Bytestream]
+DEBUG 2012-06-24 14:57:39,182 (SkypeManager.java:280) Refreshing Skype username cache...
+DEBUG 2012-06-24 14:57:44,865 (SharedDocumentProvider.java:79) SharedDocumentProvider created by Eclipse
+DEBUG 2012-06-24 14:57:50,816 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: brb712@gmail.com/android85c1f1876b8c
+DEBUG 2012-06-24 14:57:50,822 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: jwewsuk@gmail.com/androida0083275ef1a
+DEBUG 2012-06-24 14:57:50,932 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: gsbaca@gmail.com/gmail.1C07FB55
+WARN  2012-06-24 14:57:50,934 (DiscoveryManager.java:439) Service Discovery failed on recipient lightningzygella@gmail.com/Talk.v10459B93704 server:xmpp.l.google.com:
+feature-not-implemented(501)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:448)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:414)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.querySupport(DiscoveryManager.java:436)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isFeatureSupported(DiscoveryManager.java:387)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.getSupportingPresence(DiscoveryManager.java:289)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isSarosSupported(DiscoveryManager.java:207)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager$2$1.run(DiscoveryManager.java:329)
+	at de.fu_berlin.inf.dpp.util.Utils$6.run(Utils.java:377)
+	at java.lang.Thread.run(Thread.java:680)
+DEBUG 2012-06-24 14:57:50,965 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: burnett98@gmail.com/Adium5653C4A8
+DEBUG 2012-06-24 14:57:56,189 (StartupSaros.java:66) de.fu_berlin.inf.dpp.testmode=null
+DEBUG 2012-06-24 14:57:56,326 (WhiteboardManager.java:108) WhiteboardManager instantiated
+DEBUG 2012-06-24 14:57:56,346 (DocumentRecord.java:93) Added Node: attr(134057147634099470) name=svg
+DEBUG 2012-06-24 14:57:58,822 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: pizzabudy8@gmail.com/max villegFFB87438
+DEBUG 2012-06-24 14:57:59,100 (StunHelper.java:121) Added WAN-IP: 174.56.67.114 (through 192.168.1.134)
+DEBUG 2012-06-24 14:58:59,470 (DiscoveryManager.java:96) Clearing cache entry of buddy pizzabudy8@gmail.com/max villegFFB87438: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="client" name="iChatAgent" type="pc"/><feature var="apple:iq:vc:audio"/><feature var="jabber:iq:version"/><feature var="apple:profile:transfer-extensions:rsrcfork"/><feature var="apple:iq:vc:recauth"/><feature var="apple:iq:vc:ice"/><feature var="apple:iq:vc:video"/><feature var="http://jabber.org/protocol/si/profile/file-transfer"/><feature var="http://jabber.org/protocol/bytestreams"/><feature var="apple:iq:vc:auxvideo"/><feature var="apple:iq:rd:muxing"/><feature var="apple:iq:vc:multiaudio"/><feature var="apple:iq:vc:capable"/><feature var="apple:iq:vc:multivideo"/><feature var="apple:iq:rd:server"/><feature var="http://jabber.org/protocol/sipub"/><feature var="vcard-temp:x:update"/><feature var="apple:profile:bundle-transfer"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/si"/><feature var="http://jabber.org/protocol/xhtml-im"/><feature var="apple:iq:vc:available"/><feature var="http://www.apple.com/xmpp/message-attachments"/><feature var="apple:iq:rd:client"/><feature var="apple:profile:efh-transfer"/></query>
+DEBUG 2012-06-24 14:59:08,069 (SarosNet.java:428) [jrbaca@gmail.com/Saros8108727E] New Connection State == DISCONNECTING
+DEBUG 2012-06-24 14:59:08,228 (SarosNet.java:428) New Connection State == NOT_CONNECTED

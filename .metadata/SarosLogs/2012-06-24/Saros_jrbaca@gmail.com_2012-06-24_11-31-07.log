@@ -1,0 +1,40 @@
+INFO  2012-06-24 11:31:02,930 (Saros.java:250) Starting Saros 11.12.9.r3685 running:
+  Java Version: 1.6.0_33
+  Java Vendor: Apple Inc.
+  Eclipse Runtime Version: 3.7.0.v20110110
+  Operating System: Mac OS X (10.7.4)
+  Hardware Architecture: i386
+INFO  2012-06-24 11:31:04,366 (StatisticManager.java:303) Current feedback settings:
+  Feedback disabled: false
+  Feedback interval: 5
+  Statistic submission allowed: false
+  Pseudonym submission allowed: false
+DEBUG 2012-06-24 11:31:04,384 (StreamServiceManager.java:228) StreamServices added:
+  SendFile
+  VideoSharing
+  ArchiveProject
+  AudioService
+INFO  2012-06-24 11:31:04,391 (ErrorLogManager.java:306) Current error log settings:
+  Error log submission allowed: false
+  Full Error log submission allowed: false
+INFO  2012-06-24 11:31:04,452 (XMPPAccountStore.java:106) loaded 1 accounts
+DEBUG 2012-06-24 11:31:04,717 (SarosNet.java:206) Socks5Proxy properties changed. Socks5Proxy started on port 7777...
+DEBUG 2012-06-24 11:31:05,393 (SarosNet.java:428) New Connection State == CONNECTING
+DEBUG 2012-06-24 11:31:05,979 (StunHelper.java:128) Error while performing STUN: No route to host
+DEBUG 2012-06-24 11:31:05,979 (StunHelper.java:128) Error while performing STUN: No route to host
+DEBUG 2012-06-24 11:31:06,290 (StunHelper.java:128) Error while performing STUN: No route to host
+DEBUG 2012-06-24 11:31:06,293 (StunHelper.java:128) Error while performing STUN: No route to host
+DEBUG 2012-06-24 11:31:06,942 (SarosNet.java:428) [jrbaca@gmail.com/Saros7789DA46] New Connection State == CONNECTED
+DEBUG 2012-06-24 11:31:07,014 (DataTransferManager.java:674) Prepare bytestreams for XMPP connection. Used transport order: [XEP 65 SOCKS5, XEP 47 In-Band Bytestream]
+DEBUG 2012-06-24 11:31:07,049 (SkypeManager.java:280) Refreshing Skype username cache...
+DEBUG 2012-06-24 11:31:11,520 (SharedDocumentProvider.java:79) SharedDocumentProvider created by Eclipse
+DEBUG 2012-06-24 11:31:16,328 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: jwewsuk@gmail.com/androida0083275ef1a
+DEBUG 2012-06-24 11:31:16,412 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: maximusjohnsonus@gmail.com/gmail.175DE238
+DEBUG 2012-06-24 11:31:16,429 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: brb712@gmail.com/android85c1f1876b8c
+DEBUG 2012-06-24 11:31:16,474 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: gsbaca@gmail.com/gmail.1C07FB55
+DEBUG 2012-06-24 11:31:21,146 (StartupSaros.java:66) de.fu_berlin.inf.dpp.testmode=null
+DEBUG 2012-06-24 11:31:21,446 (WhiteboardManager.java:108) WhiteboardManager instantiated
+DEBUG 2012-06-24 11:31:21,470 (DocumentRecord.java:93) Added Node: attr(134055908146660091) name=svg
+DEBUG 2012-06-24 11:31:27,106 (StunHelper.java:121) Added WAN-IP: 174.56.67.114 (through 192.168.1.134)
+DEBUG 2012-06-24 11:39:47,175 (SarosNet.java:428) [jrbaca@gmail.com/Saros7789DA46] New Connection State == DISCONNECTING
+DEBUG 2012-06-24 11:39:47,359 (SarosNet.java:428) New Connection State == NOT_CONNECTED

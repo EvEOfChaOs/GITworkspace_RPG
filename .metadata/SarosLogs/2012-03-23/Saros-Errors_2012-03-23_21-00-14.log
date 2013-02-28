@@ -1,0 +1,566 @@
+WARN  2012-03-23 21:00:14,392 (DiscoveryManager.java:439) Service Discovery failed on recipient burnett98@gmail.com/IM+C8944A78 server:xmpp.l.google.com:
+No response from the server.: 
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:445)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:414)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.querySupport(DiscoveryManager.java:436)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isFeatureSupported(DiscoveryManager.java:387)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.getSupportingPresence(DiscoveryManager.java:289)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isSarosSupported(DiscoveryManager.java:207)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager$2$1.run(DiscoveryManager.java:329)
+	at de.fu_berlin.inf.dpp.util.Utils$6.run(Utils.java:377)
+	at java.lang.Thread.run(Thread.java:680)
+WARN  2012-03-23 21:22:34,861 (DiscoveryManager.java:439) Service Discovery failed on recipient burnett98@gmail.com/IM+C8944A78 server:xmpp.l.google.com:
+No response from the server.: 
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:445)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:414)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.querySupport(DiscoveryManager.java:436)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isFeatureSupported(DiscoveryManager.java:387)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.getSupportingPresence(DiscoveryManager.java:289)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isSarosSupported(DiscoveryManager.java:207)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager$2$1.run(DiscoveryManager.java:329)
+	at de.fu_berlin.inf.dpp.util.Utils$6.run(Utils.java:377)
+	at java.lang.Thread.run(Thread.java:680)
+WARN  2012-03-23 21:23:04,906 (DiscoveryManager.java:439) Service Discovery failed on recipient burnett98@gmail.com/IM+C8944A78 server:xmpp.l.google.com:
+No response from the server.: 
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:445)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:414)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.querySupport(DiscoveryManager.java:436)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isFeatureSupported(DiscoveryManager.java:387)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.getSupportingPresence(DiscoveryManager.java:289)
+	at de.fu_berlin.inf.dpp.net.internal.ConnectionTestManager.runConnectionTest(ConnectionTestManager.java:181)
+	at de.fu_berlin.inf.dpp.ui.actions.ConnectionTestAction$3.run(ConnectionTestAction.java:143)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+WARN  2012-03-23 21:23:05,597 (Socks5Transport.java:501) [SOCKS5] could not connect to burnett98@gmail.com/Saros1D71793B because: feature-not-implemented(501). Waiting for peer to connect ...
+ERROR 2012-03-23 21:23:14,600 (DataTransferManager.java:433) [burnett98@gmail.com/Saros1D71793B] Failed to connect using XEP 65 SOCKS5:
+feature-not-implemented(501)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverItems(ServiceDiscoveryManager.java:495)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverItems(ServiceDiscoveryManager.java:461)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.determineProxies(Socks5BytestreamManager.java:526)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:423)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:399)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:83)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishBinaryChannel(Socks5Transport.java:472)
+	at de.fu_berlin.inf.dpp.net.internal.BytestreamTransport.connect(BytestreamTransport.java:45)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.connect(DataTransferManager.java:431)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.getConnection(DataTransferManager.java:402)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:339)
+	at de.fu_berlin.inf.dpp.net.internal.ConnectionTestManager.runConnectionTest(ConnectionTestManager.java:204)
+	at de.fu_berlin.inf.dpp.ui.actions.ConnectionTestAction$3.run(ConnectionTestAction.java:143)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+WARN  2012-03-23 21:23:34,950 (DiscoveryManager.java:439) Service Discovery failed on recipient burnett98@gmail.com/IM+C8944A78 server:xmpp.l.google.com:
+No response from the server.: 
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:445)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:414)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.querySupport(DiscoveryManager.java:436)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isFeatureSupported(DiscoveryManager.java:387)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.getSupportingPresence(DiscoveryManager.java:289)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isSarosSupported(DiscoveryManager.java:207)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager$2$1.run(DiscoveryManager.java:329)
+	at de.fu_berlin.inf.dpp.util.Utils$6.run(Utils.java:377)
+	at java.lang.Thread.run(Thread.java:680)
+WARN  2012-03-23 21:24:04,954 (DiscoveryManager.java:439) Service Discovery failed on recipient burnett98@gmail.com/IM+C8944A78 server:xmpp.l.google.com:
+No response from the server.: 
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:445)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:414)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.querySupport(DiscoveryManager.java:436)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isFeatureSupported(DiscoveryManager.java:387)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.getSupportingPresence(DiscoveryManager.java:289)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isSarosSupported(DiscoveryManager.java:207)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager$2$1.run(DiscoveryManager.java:329)
+	at de.fu_berlin.inf.dpp.util.Utils$6.run(Utils.java:377)
+	at java.lang.Thread.run(Thread.java:680)
+WARN  2012-03-23 21:24:34,959 (DiscoveryManager.java:439) Service Discovery failed on recipient burnett98@gmail.com/IM+C8944A78 server:xmpp.l.google.com:
+No response from the server.: 
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:445)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:414)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.querySupport(DiscoveryManager.java:436)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isFeatureSupported(DiscoveryManager.java:387)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.getSupportingPresence(DiscoveryManager.java:289)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isSarosSupported(DiscoveryManager.java:207)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager$2$1.run(DiscoveryManager.java:329)
+	at de.fu_berlin.inf.dpp.util.Utils$6.run(Utils.java:377)
+	at java.lang.Thread.run(Thread.java:680)
+WARN  2012-03-23 21:24:43,639 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 21:25:14,462 (DiscoveryManager.java:439) Service Discovery failed on recipient burnett98@gmail.com/IM+C8944A78 server:xmpp.l.google.com:
+No response from the server.: 
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:445)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:414)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.querySupport(DiscoveryManager.java:436)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isFeatureSupported(DiscoveryManager.java:387)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.getSupportingPresence(DiscoveryManager.java:289)
+	at de.fu_berlin.inf.dpp.invitation.OutgoingSessionNegotiation.checkAvailability(OutgoingSessionNegotiation.java:214)
+	at de.fu_berlin.inf.dpp.invitation.OutgoingSessionNegotiation.start(OutgoingSessionNegotiation.java:160)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager$OutgoingInvitationJob.run(SarosSessionManager.java:469)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+WARN  2012-03-23 21:25:45,187 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 21:25:45,388 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 21:25:45,591 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 21:27:38,392 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 21:27:38,490 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 21:28:26,395 (SharedProjectFileDecorator.java:222) resource should not be null
+WARN  2012-03-23 21:28:26,829 (SharedProjectFileDecorator.java:222) resource should not be null
+WARN  2012-03-23 21:28:27,271 (SharedProjectFileDecorator.java:222) resource should not be null
+WARN  2012-03-23 21:28:28,878 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 21:28:28,993 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 21:54:07,395 (SharedProjectFileDecorator.java:134) path object should not be null
+ERROR 2012-03-23 22:39:50,453 (SarosNet.java:451) XMPP Connection Error: 
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at com.sun.net.ssl.internal.ssl.InputRecord.readFully(InputRecord.java:293)
+	at com.sun.net.ssl.internal.ssl.InputRecord.read(InputRecord.java:331)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:830)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:787)
+	at com.sun.net.ssl.internal.ssl.AppInputStream.read(AppInputStream.java:75)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:264)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:306)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:158)
+	at java.io.InputStreamReader.read(InputStreamReader.java:167)
+	at java.io.BufferedReader.fill(BufferedReader.java:136)
+	at java.io.BufferedReader.read1(BufferedReader.java:187)
+	at java.io.BufferedReader.read(BufferedReader.java:261)
+	at org.xmlpull.mxp1.MXParser.fillBuf(MXParser.java:2992)
+	at org.xmlpull.mxp1.MXParser.more(MXParser.java:3046)
+	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1144)
+	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:325)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:43)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:70)
+ERROR 2012-03-23 22:39:50,500 (SarosNet.java:430) New Connection State == ERROR
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at com.sun.net.ssl.internal.ssl.InputRecord.readFully(InputRecord.java:293)
+	at com.sun.net.ssl.internal.ssl.InputRecord.read(InputRecord.java:331)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:830)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:787)
+	at com.sun.net.ssl.internal.ssl.AppInputStream.read(AppInputStream.java:75)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:264)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:306)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:158)
+	at java.io.InputStreamReader.read(InputStreamReader.java:167)
+	at java.io.BufferedReader.fill(BufferedReader.java:136)
+	at java.io.BufferedReader.read1(BufferedReader.java:187)
+	at java.io.BufferedReader.read(BufferedReader.java:261)
+	at org.xmlpull.mxp1.MXParser.fillBuf(MXParser.java:2992)
+	at org.xmlpull.mxp1.MXParser.more(MXParser.java:3046)
+	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1144)
+	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:325)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:43)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:70)
+WARN  2012-03-23 22:41:26,121 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:42:53,763 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:42:53,822 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:43:55,664 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:43:55,712 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:44:15,662 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:44:15,708 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:44:18,993 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:44:19,021 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:44:22,976 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:44:23,022 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:44:38,772 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:44:38,800 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:46:55,190 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:46:55,243 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:49:51,497 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:49:51,525 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:54:14,189 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:54:14,217 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:54:17,858 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:54:17,889 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:54:48,125 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:54:48,155 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:54:49,540 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:54:49,569 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:54:50,717 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:54:50,750 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:54:59,960 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:54:59,988 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:55:17,808 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:55:17,839 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:55:50,409 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:55:50,438 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:57:13,776 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:57:23,229 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:57:23,258 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:57:27,568 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:57:27,596 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:57:33,604 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:57:33,654 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:57:37,115 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:57:37,144 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:57:39,039 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:57:39,067 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:57:40,474 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:57:40,502 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:58:18,908 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:58:18,935 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:59:28,981 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-23 22:59:29,009 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 21:34:22,490 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 21:34:22,608 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 21:40:17,857 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 21:40:17,890 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 21:57:33,066 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 21:57:33,188 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 21:57:33,231 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 21:57:38,033 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 21:57:38,115 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 21:58:21,025 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 21:58:21,101 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:01:44,288 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:01:44,324 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:01:47,636 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:01:47,671 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:01:51,851 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:01:51,888 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:01:53,302 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:01:53,339 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:03:58,093 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:03:58,236 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:04:04,282 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:04:06,168 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:04:06,198 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:04:09,413 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:04:09,442 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:04:12,587 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:04:12,623 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:04:16,320 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:04:16,353 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:04:31,262 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:04:31,291 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:04:33,701 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:04:33,734 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:04:38,466 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:04:38,506 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:04:41,040 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:04:41,069 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:04:42,723 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:04:42,752 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:04:54,555 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:04:54,585 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:04:56,235 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:04:56,264 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:05:00,784 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:05:00,826 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:05:19,860 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:05:19,890 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:05:23,311 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:05:23,346 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:05:40,840 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:05:40,871 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:05:46,638 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:05:46,667 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:05:48,071 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:05:48,100 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:05:55,443 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:05:55,477 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:06:09,039 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:06:09,068 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:06:13,208 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:06:13,236 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:06:14,404 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:06:14,442 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:06:16,661 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:06:16,690 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:06:18,159 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:06:18,194 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:06:21,469 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:06:21,499 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:06:27,842 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:06:27,879 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:06:29,407 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:06:29,441 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:06:48,736 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:06:48,765 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:06:52,178 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:06:52,207 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:06:58,148 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:06:58,190 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:07:12,080 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:07:12,111 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:07:14,213 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:07:14,247 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:07:15,412 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:07:15,447 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:07:17,398 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:07:17,433 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:07:22,956 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:07:22,989 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:07:28,951 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:07:28,981 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:08:38,646 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:08:38,680 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:08:43,261 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:08:43,292 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:08:50,938 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:08:50,970 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:08:58,468 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:08:58,503 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:09:14,675 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:09:14,705 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:09:39,103 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:09:39,134 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:10:01,664 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:10:01,709 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:10:09,743 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:10:09,777 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:10:21,013 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:10:21,047 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:10:54,533 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:10:54,562 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:12:10,324 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:12:10,364 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:12:29,542 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:12:29,577 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:12:37,957 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:12:37,992 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:12:43,550 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:12:43,583 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:12:55,402 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:12:55,439 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:12:58,460 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:12:58,494 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:13:03,259 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:13:03,294 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:13:06,968 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:13:07,005 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:13:25,039 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:13:25,086 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:13:28,639 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:13:28,674 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:13:32,570 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:13:32,604 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:13:35,200 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:13:35,232 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:13:38,134 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:13:38,167 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:14:50,803 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:14:50,845 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:17:11,425 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:17:11,460 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:17:13,533 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:17:13,582 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:17:38,434 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:17:38,470 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:17:53,815 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:17:53,846 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:18:32,159 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:18:32,196 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:18:33,916 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:18:33,950 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:18:38,249 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:18:38,280 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:18:42,716 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:18:42,751 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:18:46,826 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:18:46,856 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:18:50,971 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:18:51,003 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:19:08,047 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:19:08,079 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:19:10,187 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:19:10,216 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:19:21,168 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:19:21,204 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:19:26,959 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:19:26,989 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:19:48,961 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:24:03,048 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:29:56,213 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:29:56,277 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:31:05,402 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:31:05,479 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:31:11,510 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:31:11,544 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:31:16,089 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:31:16,120 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:31:18,264 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:31:18,299 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:31:25,377 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:31:25,408 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:32:50,400 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:32:50,435 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:34:35,631 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:34:35,690 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:40:18,976 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:40:19,055 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:40:31,211 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:40:31,244 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:40:40,760 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:40:40,791 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:40:41,454 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:40:41,489 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:40:44,017 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:40:44,054 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:41:42,425 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:41:42,454 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:41:47,983 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:41:48,016 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:43:02,516 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:43:02,553 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:43:07,496 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:43:07,527 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:43:16,609 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:43:16,652 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:43:45,880 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:43:45,916 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:44:06,668 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:44:06,704 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:44:46,390 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:44:46,426 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:45:11,141 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:45:11,175 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:45:36,036 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:45:36,111 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:45:53,094 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:45:53,130 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:46:26,558 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:46:26,603 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:46:39,480 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:46:39,516 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:47:15,866 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:47:15,900 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:47:28,183 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:47:28,218 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:48:16,691 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:48:16,730 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:49:02,730 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:49:02,797 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:49:48,848 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:49:48,882 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:53:30,717 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:53:30,780 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:53:49,314 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:53:49,352 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:55:04,402 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:55:04,437 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:55:27,688 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:55:27,723 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:55:31,105 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:55:31,136 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:55:36,000 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:55:36,035 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:55:58,044 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:55:58,079 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:56:05,031 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:56:05,065 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:56:08,688 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:56:08,723 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:56:37,415 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:59:24,250 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 22:59:24,418 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:00:32,943 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:00:33,014 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:01:59,395 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:01:59,434 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:02:03,425 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:02:03,460 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:02:07,830 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:02:07,893 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:02:32,734 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:02:32,769 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:02:38,514 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:02:38,545 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:02:41,960 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:02:41,990 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:02:51,322 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:02:51,356 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:02:54,302 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:02:54,332 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:02:55,503 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:02:55,535 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:04:04,258 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:04:04,350 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:04:55,255 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:04:55,486 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:05:02,960 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:05:02,988 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:05:08,701 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:05:08,760 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:05:56,930 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:06:31,179 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:06:31,241 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:08:50,057 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:08:50,154 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:08:51,860 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:08:51,887 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:08:54,926 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:08:54,953 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:10:14,527 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:10:14,618 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:11:36,718 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:11:36,742 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:17:33,339 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:17:54,396 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:18:27,702 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:21:45,313 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:36:20,609 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:36:20,750 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:38:46,956 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:39:05,732 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:39:05,791 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:39:13,010 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:39:13,040 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:39:24,228 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:39:24,256 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:39:33,573 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:39:33,636 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:39:38,168 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:39:38,197 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:47:29,183 (SharedProjectFileDecorator.java:134) path object should not be null
+WARN  2012-03-24 23:55:25,944 (SarosSessionManager.java:250) StopSharedProject should not be called from SWT
+StackTrace:
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.stopSarosSession(SarosSessionManager.java:251)
+	at de.fu_berlin.inf.dpp.Saros.stop(Saros.java:305)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:565)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1160)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:595)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:690)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:597)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:390)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:198)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+ERROR 2012-03-24 23:55:25,975 (SarosSessionManager.java:847) Internal error in notifying listener of SarosSession ending: 
+java.lang.IllegalArgumentException: JID cannot be null
+	at de.fu_berlin.inf.dpp.net.JID.<init>(JID.java:74)
+	at de.fu_berlin.inf.dpp.communication.muc.session.MUCSession.getJID(MUCSession.java:391)
+	at de.fu_berlin.inf.dpp.communication.muc.session.MUCSession.disconnect(MUCSession.java:198)
+	at de.fu_berlin.inf.dpp.communication.muc.singleton.MUCManagerSingletonWrapperChatView$1.sessionEnding(MUCManagerSingletonWrapperChatView.java:57)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.notifySessionEnding(SarosSessionManager.java:845)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.stopSarosSession(SarosSessionManager.java:268)
+	at de.fu_berlin.inf.dpp.Saros.stop(Saros.java:305)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:565)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1160)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:595)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:690)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:597)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:390)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:198)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)

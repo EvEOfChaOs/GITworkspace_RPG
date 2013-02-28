@@ -1,0 +1,78 @@
+import java.awt.BorderLayout;
+import java.awt.FlowLayout;
+
+import javax.swing.JButton;
+import javax.swing.JDialog;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.JRadioButton;
+import javax.swing.ButtonGroup;
+
+
+public class Test2 extends JDialog {
+
+	private final JPanel contentPanel = new JPanel();
+	private final ButtonGroup buttonGroup = new ButtonGroup();
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		try {
+			Test2 dialog = new Test2();
+			dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
+			dialog.setVisible(true);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	/**
+	 * Create the dialog.
+	 */
+	public Test2() {
+		setTitle("Choose application");
+		setBounds(100, 100, 273, 199);
+		getContentPane().setLayout(new BorderLayout());
+		contentPanel.setLayout(new FlowLayout());
+		contentPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
+		getContentPane().add(contentPanel, BorderLayout.CENTER);
+		{
+			JRadioButton rdbtnAreaOfTrapezoid = new JRadioButton("Area of Trapezoid");
+			buttonGroup.add(rdbtnAreaOfTrapezoid);
+			contentPanel.add(rdbtnAreaOfTrapezoid);
+		}
+		{
+			JRadioButton rdbtnAreaOf = new JRadioButton("Area of Rectangle");
+			buttonGroup.add(rdbtnAreaOf);
+			contentPanel.add(rdbtnAreaOf);
+		}
+		{
+			JRadioButton rdbtnAreaOfSquare = new JRadioButton("Area of Square     ");
+			buttonGroup.add(rdbtnAreaOfSquare);
+			contentPanel.add(rdbtnAreaOfSquare);
+		}
+		{
+			JRadioButton rdbtnAreaOfTriangle = new JRadioButton("Area of Triangle  ");
+			buttonGroup.add(rdbtnAreaOfTriangle);
+			contentPanel.add(rdbtnAreaOfTriangle);
+		}
+		{
+			JPanel buttonPane = new JPanel();
+			buttonPane.setLayout(new FlowLayout(FlowLayout.RIGHT));
+			getContentPane().add(buttonPane, BorderLayout.SOUTH);
+			{
+				JButton okButton = new JButton("OK");
+				okButton.setActionCommand("OK");
+				buttonPane.add(okButton);
+				getRootPane().setDefaultButton(okButton);
+			}
+			{
+				JButton cancelButton = new JButton("Cancel");
+				cancelButton.setActionCommand("Cancel");
+				buttonPane.add(cancelButton);
+			}
+		}
+	}
+
+}

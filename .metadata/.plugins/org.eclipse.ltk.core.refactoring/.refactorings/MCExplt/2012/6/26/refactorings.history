@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;MCExploit&apos; to &apos;MCExplt&apos;&#x0A;- Original project: &apos;MCExplt&apos;&#x0A;- Original element: &apos;MCExploit&apos;&#x0A;- Renamed element: &apos;MCExplt&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MCExploit&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{MCExploit.java[MCExploit" matchStrategy="1" name="MCExplt" qualified="false" references="true" similarDeclarations="false" stamp="1340559346108" textual="false" version="1.0"/>
+</session>

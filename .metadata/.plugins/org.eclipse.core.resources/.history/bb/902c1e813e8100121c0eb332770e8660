@@ -1,0 +1,19 @@
+
+public class HelloWorld {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+		//Add class to main file
+		Greeting GreetingObject = new Greeting();
+		
+		//use class
+		GreetingObject.sayHello();
+		GreetingObject.sayBye();
+		GreetingObject.sayShutUp();
+
+	}
+
+}

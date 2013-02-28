@@ -1,0 +1,868 @@
+INFO  2012-03-25 07:57:09,484 (Saros.java:250) Starting Saros 11.12.9.r3685 running:
+  Java Version: 1.6.0_29
+  Java Vendor: Apple Inc.
+  Eclipse Runtime Version: 3.7.0.v20110110
+  Operating System: Mac OS X (10.7.3)
+  Hardware Architecture: i386
+DEBUG 2012-03-25 07:57:18,038 (StreamServiceManager.java:228) StreamServices added:
+  SendFile
+  VideoSharing
+  AudioService
+  ArchiveProject
+INFO  2012-03-25 07:57:18,280 (StatisticManager.java:303) Current feedback settings:
+  Feedback disabled: false
+  Feedback interval: 5
+  Statistic submission allowed: false
+  Pseudonym submission allowed: false
+INFO  2012-03-25 07:57:18,732 (XMPPAccountStore.java:106) loaded 1 accounts
+INFO  2012-03-25 07:57:19,728 (ErrorLogManager.java:306) Current error log settings:
+  Error log submission allowed: false
+  Full Error log submission allowed: false
+DEBUG 2012-03-25 07:57:20,905 (SarosNet.java:206) Socks5Proxy properties changed. Socks5Proxy started on port 7777...
+DEBUG 2012-03-25 07:57:25,267 (SarosNet.java:428) New Connection State == CONNECTING
+DEBUG 2012-03-25 07:57:27,702 (SarosNet.java:428) [jrbaca@gmail.com/Saros9EF66DE5] New Connection State == CONNECTED
+DEBUG 2012-03-25 07:57:27,882 (DataTransferManager.java:674) Prepare bytestreams for XMPP connection. Used transport order: [XEP 65 SOCKS5, XEP 47 In-Band Bytestream]
+DEBUG 2012-03-25 07:57:27,910 (SkypeManager.java:280) Refreshing Skype username cache...
+DEBUG 2012-03-25 07:57:37,225 (SharedDocumentProvider.java:79) SharedDocumentProvider created by Eclipse
+DEBUG 2012-03-25 07:57:45,530 (StunHelper.java:121) Added WAN-IP: 174.56.67.114 (through 192.168.1.115)
+DEBUG 2012-03-25 07:57:55,796 (StartupSaros.java:66) de.fu_berlin.inf.dpp.testmode=null
+DEBUG 2012-03-25 07:57:56,324 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: brb712@gmail.com/android85c1f1876b8c
+DEBUG 2012-03-25 07:57:56,420 (WhiteboardManager.java:108) WhiteboardManager instantiated
+DEBUG 2012-03-25 07:57:56,459 (DocumentRecord.java:93) Added Node: attr(133268387645465472) name=svg
+DEBUG 2012-03-25 07:57:56,753 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: burnett98@gmail.com/SarosFBFDA085
+DEBUG 2012-03-25 08:19:05,479 (DiscoveryManager.java:96) Clearing cache entry of buddy burnett98@gmail.com/SarosFBFDA085: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="client" name="Smack" type="pc"/><feature var="http://jabber.org/protocol/xhtml-im"/><feature var="http://jabber.org/protocol/muc"/><feature var="http://jabber.org/protocol/bytestreams"/><feature var="http://jabber.org/protocol/commands"/><feature var="de.fu_berlin.inf.dpp"/></query>
+WARN  2012-03-25 08:37:32,594 (DiscoveryManager.java:439) Service Discovery failed on recipient burnett98@gmail.com/IM+A3F4282F server:xmpp.l.google.com:
+No response from the server.: 
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:445)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:414)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.querySupport(DiscoveryManager.java:436)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isFeatureSupported(DiscoveryManager.java:387)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.getSupportingPresence(DiscoveryManager.java:289)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isSarosSupported(DiscoveryManager.java:207)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager$2$1.run(DiscoveryManager.java:329)
+	at de.fu_berlin.inf.dpp.util.Utils$6.run(Utils.java:377)
+	at java.lang.Thread.run(Thread.java:680)
+DEBUG 2012-03-25 08:50:58,292 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: 3cxu2b8tb7q8m23zi597u24r0y@public.talk.google.com/gmail.40738B51
+DEBUG 2012-03-25 08:51:03,322 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: cinabq@gmail.com/gmail.3D5017E4
+DEBUG 2012-03-25 08:52:20,253 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: jwewsuk@gmail.com/Saros44393D25
+DEBUG 2012-03-25 08:52:39,870 (WhiteboardManager.java:55) Session Started, set Color: RGB {141, 206, 231}
+DEBUG 2012-03-25 08:52:39,872 (ColorUtils.java:21) set foregroundcolor RGB {141, 206, 231}
+DEBUG 2012-03-25 08:52:39,920 (MUCManager.java:73) Joining MUC...
+DEBUG 2012-03-25 08:52:39,926 (MUCSession.java:238) Trying to create room.
+DEBUG 2012-03-25 08:52:40,242 (MUCSession.java:279) Configuring room
+DEBUG 2012-03-25 08:52:40,878 (MUCSession.java:269) MUC created and joined. Server: conference.jabber.ccc.de Room: SAROS1979826962 Password 1922791160
+DEBUG 2012-03-25 08:52:40,880 (MUCManagerSingletonWrapperChatView.java:45) MUCManagerSingletonWrapperChatView created / joined.
+DEBUG 2012-03-25 08:52:40,883 (SXEController.java:120) SXE (2750): initialize session at inviter side
+DEBUG 2012-03-25 08:52:40,885 (ConsistencyAction.java:99) Inconsistency indicator goes: off
+DEBUG 2012-03-25 08:52:40,902 (ConsistencyAction.java:99) Inconsistency indicator goes: off
+INFO  2012-03-25 08:52:40,905 (ParticipantCollector.java:147) Session started: Current number of participants: 1
+INFO  2012-03-25 08:52:40,943 (StatisticManager.java:283) Session count: 3
+DEBUG 2012-03-25 08:52:40,963 (SharedProjectDecorator.java:80) PROJECT ADDED: 918947001
+DEBUG 2012-03-25 08:52:40,964 (SharedProjectDecorator.java:137) Decoration update
+DEBUG 2012-03-25 08:52:40,965 (SharedProjectDecorator.java:137) Decoration update
+DEBUG 2012-03-25 08:52:40,966 (EditorAPI.java:308) IWorkbenchPage.getEditorReferences() returned IEditorPart which needs to be restored: Test2.java
+DEBUG 2012-03-25 08:52:41,182 (MUCStateManager.java:99) Incoming Message from saros1979826962@conference.jabber.ccc.de/jrbaca@gmail.com/Saros9EF66DE5 with state: active
+DEBUG 2012-03-25 08:52:41,183 (MUCSession.java:92) stateChanged fired with state: active
+DEBUG 2012-03-25 08:52:41,185 (MUCSession.java:129) processPacket called
+DEBUG 2012-03-25 08:52:41,599 (EditorManager.java:387) mainMathCalculator.java
+DEBUG 2012-03-25 08:52:41,600 (EditorManager.java:387) selectionMenu.java
+DEBUG 2012-03-25 08:52:41,601 (EditorManager.java:387) areaCalc.java
+DEBUG 2012-03-25 08:52:41,602 (EditorManager.java:387) Test2.java
+INFO  2012-03-25 08:52:41,603 (SarosSessionManager.java:220) Session started
+DEBUG 2012-03-25 08:52:41,781 (ChatRoomsComposite.java:408) Sender: You
+DEBUG 2012-03-25 08:52:41,782 (ChatRoomsComposite.java:409) Color: Color {141, 206, 231}
+DEBUG 2012-03-25 08:52:42,302 (OutgoingSessionNegotiation.java:151) Inv[jwewsuk@gmail.com] : Invitation has started.
+DEBUG 2012-03-25 08:52:42,307 (OutgoingSessionNegotiation.java:211) Inv[jwewsuk@gmail.com] : Checking Saros support...
+DEBUG 2012-03-25 08:52:42,308 (OutgoingSessionNegotiation.java:236) Inv[jwewsuk@gmail.com] : Saros is supported.
+DEBUG 2012-03-25 08:52:42,308 (OutgoingSessionNegotiation.java:249) Inv[jwewsuk@gmail.com/Saros44393D25] : Checking peer's version...
+DEBUG 2012-03-25 08:52:42,733 (VersionManager.java:362) Version request from jwewsuk@gmail.com/Saros44393D25
+DEBUG 2012-03-25 08:52:42,733 (OutgoingSessionNegotiation.java:261) Inv[jwewsuk@gmail.com/Saros44393D25] : Saros versions are compatible, proceeding...
+DEBUG 2012-03-25 08:52:42,736 (DataTransferManager.java:423) Currently used IP addresses for Socks5Proxy: [174.56.67.114, 192.168.1.115, 2002:ae38:4372:0:fdf3:62a3:c6db:9306, 2002:ae38:4372:0:fa1e:dfff:fed6:3794, fe80:0:0:0:fa1e:dfff:fed6:3794%5]
+INFO  2012-03-25 08:52:42,737 (DataTransferManager.java:427) Try to establish a bytestream connection to jwewsuk@gmail.com from jrbaca@gmail.com/Saros9EF66DE5 using SOCKS5
+DEBUG 2012-03-25 08:52:42,738 (Socks5Transport.java:461) [SOCKS5] establishing new connection to jwewsuk@gmail.com/Saros44393D25 with local proxy enabled (Port 7777). 
+WARN  2012-03-25 08:52:43,327 (Socks5Transport.java:501) [SOCKS5] could not connect to jwewsuk@gmail.com/Saros44393D25 because: feature-not-implemented(501). Waiting for peer to connect ...
+ERROR 2012-03-25 08:52:52,331 (DataTransferManager.java:433) [jwewsuk@gmail.com/Saros44393D25] Failed to connect using XEP 65 SOCKS5:
+feature-not-implemented(501)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverItems(ServiceDiscoveryManager.java:495)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverItems(ServiceDiscoveryManager.java:461)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.determineProxies(Socks5BytestreamManager.java:526)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:423)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:399)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:83)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishBinaryChannel(Socks5Transport.java:472)
+	at de.fu_berlin.inf.dpp.net.internal.BytestreamTransport.connect(BytestreamTransport.java:45)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.connect(DataTransferManager.java:431)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.getConnection(DataTransferManager.java:402)
+	at de.fu_berlin.inf.dpp.invitation.OutgoingSessionNegotiation.sendInvitation(OutgoingSessionNegotiation.java:301)
+	at de.fu_berlin.inf.dpp.invitation.OutgoingSessionNegotiation.start(OutgoingSessionNegotiation.java:164)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager$OutgoingInvitationJob.run(SarosSessionManager.java:469)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+INFO  2012-03-25 08:52:52,332 (DataTransferManager.java:427) Try to establish a bytestream connection to jwewsuk@gmail.com from jrbaca@gmail.com/Saros9EF66DE5 using IBB
+DEBUG 2012-03-25 08:52:52,712 (DataTransferManager.java:492) Bytestream connection changed IBB
+DEBUG 2012-03-25 08:52:52,712 (BinaryChannelConnection.java:54) IBB [jwewsuk@gmail.com/Saros44393D25] ReceiverThread started.
+DEBUG 2012-03-25 08:52:52,735 (OutgoingSessionNegotiation.java:304) Inv[jwewsuk@gmail.com/Saros44393D25] : Sending invitation...
+DEBUG 2012-03-25 08:52:56,755 (OutgoingSessionNegotiation.java:354) Inv[jwewsuk@gmail.com/Saros44393D25] : User list request has received.
+INFO  2012-03-25 08:52:56,763 (ChangeColorManager.java:117) User Joined:jwewsuk
+INFO  2012-03-25 08:52:56,775 (SarosView.java:549) Show BalloonNotification title:" Buddy joined the session" Message: "James Ewsuk (jwewsuk@gmail.com) joined the session."
+INFO  2012-03-25 08:52:56,837 (SarosAnnotation.java:138) Set new User Color: RGB {255, 0, 128}
+INFO  2012-03-25 08:52:56,839 (SarosAnnotation.java:138) Set new User Color: RGB {255, 0, 128}
+INFO  2012-03-25 08:52:56,840 (SarosAnnotation.java:138) Set new User Color: RGB {141, 206, 231}
+INFO  2012-03-25 08:52:56,845 (ChangeColorManager.java:85) received color: RGB {255, 0, 128} from buddy: jwewsuk
+INFO  2012-03-25 08:52:56,850 (SarosAnnotation.java:138) Set new User Color: RGB {255, 0, 128}
+INFO  2012-03-25 08:52:56,846 (ParticipantCollector.java:70) [jwewsuk@gmail.com/Saros44393D25] joined. Session now contains 2 buddies.
+DEBUG 2012-03-25 08:52:56,857 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[0:ChangeColorActivityDataObject(jwewsuk@gmail.com/Saros44393D25 jwewsuk@gmail.com/Saros44393D25)]]
+DEBUG 2012-03-25 08:52:56,860 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[1:ChangeColorActivityDataObject(jrbaca@gmail.com/Saros9EF66DE5 jwewsuk@gmail.com/Saros44393D25)]]
+INFO  2012-03-25 08:52:56,864 (SarosSession.java:537) Buddy [jwewsuk@gmail.com/Saros44393D25]  joined session.
+DEBUG 2012-03-25 08:52:56,866 (OutgoingSessionNegotiation.java:366) [jwewsuk@gmail.com/Saros44393D25]  added to project, colorID: 1
+DEBUG 2012-03-25 08:52:56,866 (SarosSession.java:1211) Inv[jwewsuk@gmail.com/Saros44393D25] : Synchronizing userlist [jwewsuk, jrbaca]
+DEBUG 2012-03-25 08:52:56,869 (SarosSession.java:1221) Inv[jwewsuk@gmail.com/Saros44393D25] : Waiting for user list confirmations...
+DEBUG 2012-03-25 08:52:56,883 (ChatRoomsComposite.java:408) Sender: You
+DEBUG 2012-03-25 08:52:56,883 (ChatRoomsComposite.java:409) Color: Color {141, 206, 231}
+DEBUG 2012-03-25 08:52:57,166 (XMPPTransmitter.java:649) Sent (007) [jwewsuk@gmail.com/Saros44393D25] [[2:EditorActivityDataObject(type:Activated,path:SPathDataObject [editorType=txt, path=src/selectionMenu.java, projectID=918947001])], [3:EditorActivityDataObject(type:Activated,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])], [4:EditorActivityDataObject(type:Activated,path:SPathDataObject [editorType=txt, path=src/areaCalc.java, projectID=918947001])], [5:EditorActivityDataObject(type:Activated,path:SPathDataObject [editorType=txt, path=src/Test2.java, projectID=918947001])], [6:EditorActivityDataObject(type:Activated,path:SPathDataObject [editorType=txt, path=src/selectionMenu.java, projectID=918947001])], [7:TextSelectionActivityDataObject(offset:293,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/selectionMenu.java, projectID=918947001])], [8:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/selectionMenu.java, projectID=918947001],range:(34,59))]]
+DEBUG 2012-03-25 08:52:57,321 (XMPPTransmitter.java:514) Buddy list confirmation from: [jwewsuk@gmail.com/Saros44393D25] 
+DEBUG 2012-03-25 08:52:57,322 (SarosSession.java:1225) Inv[jwewsuk@gmail.com/Saros44393D25] : All user list confirmations have arrived.
+DEBUG 2012-03-25 08:52:57,322 (OutgoingSessionNegotiation.java:405) Inv[jwewsuk@gmail.com/Saros44393D25] : Waiting for invitation complete confirmation...
+DEBUG 2012-03-25 08:52:57,569 (OutgoingSessionNegotiation.java:85) Inv[jwewsuk@gmail.com/Saros44393D25] : Notifying participants that the invitation is complete.
+DEBUG 2012-03-25 08:52:57,572 (SarosSession.java:1211) Inv[jwewsuk@gmail.com/Saros44393D25] : Synchronizing userlist [jwewsuk, jrbaca]
+DEBUG 2012-03-25 08:52:57,572 (SarosSession.java:478) The invitation of [jwewsuk@gmail.com/Saros44393D25]  is now complete
+DEBUG 2012-03-25 08:52:57,574 (SarosSession.java:1221) Inv[jwewsuk@gmail.com/Saros44393D25] : Waiting for user list confirmations...
+DEBUG 2012-03-25 08:52:57,630 (MUCStateManager.java:99) Incoming Message from saros1979826962@conference.jabber.ccc.de/jwewsuk@gmail.com/Saros44393D25 with state: active
+DEBUG 2012-03-25 08:52:57,630 (MUCSession.java:92) stateChanged fired with state: active
+DEBUG 2012-03-25 08:52:57,631 (MUCSession.java:129) processPacket called
+DEBUG 2012-03-25 08:52:57,631 (ChatRoomsComposite.java:408) Sender: James Ewsuk (jwewsuk@gmail.com)
+DEBUG 2012-03-25 08:52:57,632 (ChatRoomsComposite.java:409) Color: Color {255, 0, 128}
+DEBUG 2012-03-25 08:52:57,946 (XMPPTransmitter.java:514) Buddy list confirmation from: [jwewsuk@gmail.com/Saros44393D25] 
+DEBUG 2012-03-25 08:52:57,946 (SarosSession.java:1225) Inv[jwewsuk@gmail.com/Saros44393D25] : All user list confirmations have arrived.
+DEBUG 2012-03-25 08:52:57,947 (OutgoingSessionNegotiation.java:428) Inv[jwewsuk@gmail.com/Saros44393D25] : Invitation has completed successfully.
+INFO  2012-03-25 08:52:57,951 (ProjectNegotiationObservable.java:61) This is ProjectNegotiation number 1 in this session. There are 0 process(es) in this session
+DEBUG 2012-03-25 08:52:57,955 (OutgoingProjectNegotiation.java:178) Inv[jwewsuk@gmail.com/Saros44393D25] : Sending file list...
+DEBUG 2012-03-25 08:52:57,956 (SXEOutgoingSynchronizationProcess.java:49) SXE(2750)  send state-offer to jwewsuk@gmail.com/Saros44393D25
+DEBUG 2012-03-25 08:52:57,961 (SarosSXETransmitter.java:146) SXE send state-offer to jwewsuk@gmail.com/Saros44393D25 waiting for [accept-state, refuse-state]
+DEBUG 2012-03-25 08:52:58,040 (OutgoingProjectNegotiation.java:204) Inv[jwewsuk@gmail.com/Saros44393D25] : Waiting for remote file list...
+DEBUG 2012-03-25 08:52:58,604 (SXEOutgoingSynchronizationProcess.java:62) SXE(2750) jwewsuk@gmail.com/Saros44393D25 accepted state-offer
+DEBUG 2012-03-25 08:52:58,608 (SXEOutgoingSynchronizationProcess.java:81) SXE(2750) Sending state to jwewsuk@gmail.com/Saros44393D25
+DEBUG 2012-03-25 08:52:58,611 (SXEOutgoingSynchronizationProcess.java:83) Send message: de.fu_berlin.inf.dpp.whiteboard.sxe.net.SXEMessage@1b6b59c: from: null, to: jwewsuk@gmail.com/Saros44393D25, msgId: 1messageTyp: statemessage: [new ns=http://www.w3.org/2000/svg visible=true version=0 name=svg rid=133268387645465472 type=element, ]
+DEBUG 2012-03-25 08:52:58,918 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[9:de.fu_berlin.inf.dpp.activities.serializable.ProjectsAddedActivityDataObject@5e3931d6]]
+DEBUG 2012-03-25 08:53:06,777 (OutgoingProjectNegotiation.java:213) Inv[jwewsuk@gmail.com/Saros44393D25] : Remote file list has been received.
+DEBUG 2012-03-25 08:53:06,779 (OutgoingProjectNegotiation.java:220) FileList(files:32)
+DEBUG 2012-03-25 08:53:06,781 (OutgoingProjectNegotiation.java:564) Inv[jwewsuk@gmail.com/Saros44393D25] : Creating archive...
+DEBUG 2012-03-25 08:53:06,783 (OutgoingProjectNegotiation.java:582) Inv[jwewsuk@gmail.com/Saros44393D25] : Stopping users: [jwewsuk, jrbaca]
+DEBUG 2012-03-25 08:53:06,806 (EditorManager.java:1823) Lock all editors
+DEBUG 2012-03-25 08:53:06,807 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[10:StopActivityDataObject (id: 085306801-2297101151990298941, type: LOCKREQUEST, state: INITIATED, initiator: jrbaca@gmail.com/Saros9EF66DE5, affected user: jwewsuk@gmail.com/Saros44393D25, src: jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 08:53:06,808 (StopManager.java:340) Waiting for acknowledgment [jwewsuk@gmail.com/Saros44393D25] 
+DEBUG 2012-03-25 08:53:06,809 (StopManager.java:248) Added StartHandle (jrbaca, 0853068034300394662546435233, startable) to resulting handles.
+DEBUG 2012-03-25 08:53:07,271 (ActivitiesHandler.java:113) Rcvd (001) [jwewsuk@gmail.com/Saros44393D25] : [[0:StopActivityDataObject (id: 085306801-2297101151990298941, type: LOCKREQUEST, state: ACKNOWLEDGED, initiator: jrbaca@gmail.com/Saros9EF66DE5, affected user: jwewsuk@gmail.com/Saros44393D25, src: jwewsuk@gmail.com/Saros44393D25)]]
+DEBUG 2012-03-25 08:53:07,273 (StopManager.java:358) Acknowledgment arrived [jwewsuk@gmail.com/Saros44393D25] 
+DEBUG 2012-03-25 08:53:07,274 (StopManager.java:248) Added StartHandle (jwewsuk, 085306801-2297101151990298941, startable) to resulting handles.
+DEBUG 2012-03-25 08:53:07,279 (OutgoingProjectNegotiation.java:640) Got project from session
+DEBUG 2012-03-25 08:53:07,291 (FileZipper.java:209) Compress file: .project
+DEBUG 2012-03-25 08:53:07,291 (FileZipper.java:209) Compress file: .DS_Store
+DEBUG 2012-03-25 08:53:07,292 (FileZipper.java:209) Compress file: .classpath
+DEBUG 2012-03-25 08:53:07,292 (FileZipper.java:209) Compress file: doc/.DS_Store
+DEBUG 2012-03-25 08:53:07,293 (FileZipper.java:209) Compress file: src/.DS_Store
+DEBUG 2012-03-25 08:53:07,294 (FileZipper.java:209) Compress file: src/Test2.java
+DEBUG 2012-03-25 08:53:07,294 (FileZipper.java:209) Compress file: doc/index.html
+DEBUG 2012-03-25 08:53:07,294 (FileZipper.java:209) Compress file: doc/package-list
+DEBUG 2012-03-25 08:53:07,295 (FileZipper.java:209) Compress file: doc/help-doc.html
+DEBUG 2012-03-25 08:53:07,295 (FileZipper.java:209) Compress file: src/areaCalc.java
+DEBUG 2012-03-25 08:53:07,296 (FileZipper.java:209) Compress file: doc/areaCalc.html
+DEBUG 2012-03-25 08:53:07,297 (FileZipper.java:209) Compress file: doc/stylesheet.css
+DEBUG 2012-03-25 08:53:07,297 (FileZipper.java:209) Compress file: doc/package-use.html
+DEBUG 2012-03-25 08:53:07,298 (FileZipper.java:209) Compress file: doc/package-tree.html
+DEBUG 2012-03-25 08:53:07,298 (FileZipper.java:209) Compress file: doc/overview-tree.html
+DEBUG 2012-03-25 08:53:07,299 (FileZipper.java:209) Compress file: doc/package-frame.html
+DEBUG 2012-03-25 08:53:07,300 (FileZipper.java:209) Compress file: src/selectionMenu.java
+DEBUG 2012-03-25 08:53:07,300 (FileZipper.java:209) Compress file: doc/class-use/.DS_Store
+DEBUG 2012-03-25 08:53:07,301 (FileZipper.java:209) Compress file: doc/deprecated-list.html
+DEBUG 2012-03-25 08:53:07,302 (FileZipper.java:209) Compress file: doc/package-summary.html
+DEBUG 2012-03-25 08:53:07,302 (FileZipper.java:209) Compress file: doc/constant-values.html
+DEBUG 2012-03-25 08:53:07,303 (FileZipper.java:209) Compress file: doc/allclasses-frame.html
+DEBUG 2012-03-25 08:53:07,303 (FileZipper.java:209) Compress file: doc/resources/inherit.gif
+DEBUG 2012-03-25 08:53:07,303 (FileZipper.java:209) Compress file: doc/index-files/.DS_Store
+DEBUG 2012-03-25 08:53:07,304 (FileZipper.java:209) Compress file: doc/class-use/areaCalc.html
+DEBUG 2012-03-25 08:53:07,305 (FileZipper.java:209) Compress file: src/mainMathCalculator.java
+DEBUG 2012-03-25 08:53:07,305 (FileZipper.java:209) Compress file: doc/allclasses-noframe.html
+DEBUG 2012-03-25 08:53:07,305 (FileZipper.java:209) Compress file: doc/index-files/index-4.html
+DEBUG 2012-03-25 08:53:07,306 (FileZipper.java:209) Compress file: doc/index-files/index-3.html
+DEBUG 2012-03-25 08:53:07,306 (FileZipper.java:209) Compress file: doc/index-files/index-1.html
+DEBUG 2012-03-25 08:53:07,307 (FileZipper.java:209) Compress file: doc/index-files/index-2.html
+DEBUG 2012-03-25 08:53:07,307 (FileZipper.java:209) Compress file: .settings/org.eclipse.jdt.core.prefs
+DEBUG 2012-03-25 08:53:07,308 (FileZipper.java:114) Created project archive  (28 KiB in 18 ms at 1567.06 KiB/s) at /var/folders/hb/mbzylqdj61sfjclc5yvbt5280000gn/T/918947001&&&&8273982139315345635.zip
+DEBUG 2012-03-25 08:53:07,309 (OutgoingProjectNegotiation.java:616) Inv[jwewsuk@gmail.com/Saros44393D25] : Starting user [jrbaca@gmail.com/Saros9EF66DE5] 
+DEBUG 2012-03-25 08:53:07,309 (StartHandle.java:53) Called start on jrbaca
+DEBUG 2012-03-25 08:53:07,309 (StopManager.java:402) StartHandle (jrbaca, 0853068034300394662546435233, not startable) couldn't be removed because it doesn't exist any more.
+DEBUG 2012-03-25 08:53:07,310 (EditorManager.java:1825) Unlock all editors
+DEBUG 2012-03-25 08:53:07,316 (OutgoingProjectNegotiation.java:616) Inv[jwewsuk@gmail.com/Saros44393D25] : Starting user [jwewsuk@gmail.com/Saros44393D25] 
+DEBUG 2012-03-25 08:53:07,317 (StartHandle.java:53) Called start on jwewsuk
+DEBUG 2012-03-25 08:53:07,329 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[11:StopActivityDataObject (id: 085306801-2297101151990298941, type: UNLOCKREQUEST, state: INITIATED, initiator: jrbaca@gmail.com/Saros9EF66DE5, affected user: jwewsuk@gmail.com/Saros44393D25, src: jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 08:53:07,331 (FileZipper.java:209) Compress file: 918947001&&&&8273982139315345635.zip
+DEBUG 2012-03-25 08:53:07,333 (OutgoingProjectNegotiation.java:628) Inv[jwewsuk@gmail.com/Saros44393D25] : Sending archive...
+DEBUG 2012-03-25 08:53:07,787 (ActivitiesHandler.java:113) Rcvd (001) [jwewsuk@gmail.com/Saros44393D25] : [[1:StopActivityDataObject (id: 085306801-2297101151990298941, type: UNLOCKREQUEST, state: ACKNOWLEDGED, initiator: jrbaca@gmail.com/Saros9EF66DE5, affected user: jwewsuk@gmail.com/Saros44393D25, src: jwewsuk@gmail.com/Saros44393D25)]]
+DEBUG 2012-03-25 08:53:13,306 (ActivitiesHandler.java:113) Rcvd (001) [jwewsuk@gmail.com/Saros44393D25] : [[2:EditorActivityDataObject(type:Activated,path:no path)]]
+INFO  2012-03-25 08:53:13,306 (SarosSession.java:769) Activity EditorActivityDataObject(type:Activated,path:no path) for Project null was queued.
+DEBUG 2012-03-25 08:54:21,791 (BinaryChannelConnection.java:85) IBB [jwewsuk@gmail.com/Saros44393D25] Connection was closed by peer. No more packets
+DEBUG 2012-03-25 09:19:48,358 (EditorListener.java:205) Viewport changed: 35+25
+DEBUG 2012-03-25 09:19:48,442 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[652:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/selectionMenu.java, projectID=918947001],range:(35,60))]]
+DEBUG 2012-03-25 09:19:48,475 (EditorListener.java:205) Viewport changed: 37+25
+DEBUG 2012-03-25 09:19:48,476 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[653:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/selectionMenu.java, projectID=918947001],range:(37,62))]]
+DEBUG 2012-03-25 09:19:49,340 (EditorListener.java:205) Viewport changed: 36+25
+DEBUG 2012-03-25 09:19:49,341 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[654:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/selectionMenu.java, projectID=918947001],range:(36,61))]]
+DEBUG 2012-03-25 09:19:49,365 (EditorListener.java:205) Viewport changed: 35+25
+DEBUG 2012-03-25 09:19:49,366 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[655:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/selectionMenu.java, projectID=918947001],range:(35,60))]]
+DEBUG 2012-03-25 09:19:49,403 (EditorListener.java:205) Viewport changed: 34+24
+DEBUG 2012-03-25 09:19:49,438 (EditorListener.java:205) Viewport changed: 26+25
+DEBUG 2012-03-25 09:19:49,470 (EditorListener.java:205) Viewport changed: 20+25
+DEBUG 2012-03-25 09:19:49,506 (EditorListener.java:205) Viewport changed: 15+24
+DEBUG 2012-03-25 09:19:49,535 (EditorListener.java:205) Viewport changed: 10+25
+DEBUG 2012-03-25 09:19:49,564 (EditorListener.java:205) Viewport changed: 6+25
+DEBUG 2012-03-25 09:19:49,619 (EditorListener.java:205) Viewport changed: 5+25
+DEBUG 2012-03-25 09:19:49,650 (EditorListener.java:205) Viewport changed: 4+25
+DEBUG 2012-03-25 09:19:49,656 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[656:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/selectionMenu.java, projectID=918947001],range:(4,29))]]
+DEBUG 2012-03-25 09:19:49,692 (EditorListener.java:205) Viewport changed: 2+24
+DEBUG 2012-03-25 09:19:49,742 (EditorListener.java:205) Viewport changed: 0+25
+DEBUG 2012-03-25 09:19:49,957 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[657:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/selectionMenu.java, projectID=918947001],range:(0,25))]]
+DEBUG 2012-03-25 09:19:50,274 (EditorListener.java:205) Viewport changed: 1+25
+DEBUG 2012-03-25 09:19:50,275 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[658:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/selectionMenu.java, projectID=918947001],range:(1,26))]]
+DEBUG 2012-03-25 09:19:50,370 (EditorListener.java:205) Viewport changed: 3+25
+DEBUG 2012-03-25 09:19:50,416 (EditorListener.java:205) Viewport changed: 4+25
+DEBUG 2012-03-25 09:19:50,465 (EditorListener.java:205) Viewport changed: 6+25
+DEBUG 2012-03-25 09:19:50,512 (EditorListener.java:205) Viewport changed: 8+24
+DEBUG 2012-03-25 09:19:50,559 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[659:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/selectionMenu.java, projectID=918947001],range:(8,32))]]
+DEBUG 2012-03-25 09:19:50,682 (EditorListener.java:205) Viewport changed: 9+25
+DEBUG 2012-03-25 09:19:50,746 (EditorListener.java:205) Viewport changed: 10+25
+DEBUG 2012-03-25 09:19:50,796 (EditorListener.java:205) Viewport changed: 11+25
+DEBUG 2012-03-25 09:19:50,831 (EditorListener.java:205) Viewport changed: 13+24
+DEBUG 2012-03-25 09:19:50,858 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[660:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/selectionMenu.java, projectID=918947001],range:(13,37))]]
+DEBUG 2012-03-25 09:19:50,860 (EditorListener.java:205) Viewport changed: 15+25
+DEBUG 2012-03-25 09:19:50,914 (EditorListener.java:205) Viewport changed: 17+25
+DEBUG 2012-03-25 09:19:50,947 (EditorListener.java:205) Viewport changed: 18+25
+DEBUG 2012-03-25 09:19:50,996 (EditorListener.java:205) Viewport changed: 20+25
+DEBUG 2012-03-25 09:19:51,038 (EditorListener.java:205) Viewport changed: 22+24
+DEBUG 2012-03-25 09:19:51,079 (EditorListener.java:205) Viewport changed: 23+25
+DEBUG 2012-03-25 09:19:51,108 (EditorListener.java:205) Viewport changed: 26+25
+DEBUG 2012-03-25 09:19:51,146 (EditorListener.java:205) Viewport changed: 28+25
+DEBUG 2012-03-25 09:19:51,158 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[661:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/selectionMenu.java, projectID=918947001],range:(28,53))]]
+DEBUG 2012-03-25 09:19:51,175 (EditorListener.java:205) Viewport changed: 32+25
+DEBUG 2012-03-25 09:19:51,213 (EditorListener.java:205) Viewport changed: 34+24
+DEBUG 2012-03-25 09:19:51,243 (EditorListener.java:205) Viewport changed: 36+24
+DEBUG 2012-03-25 09:19:51,282 (EditorListener.java:205) Viewport changed: 37+25
+DEBUG 2012-03-25 09:19:51,459 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[662:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/selectionMenu.java, projectID=918947001],range:(37,62))]]
+DEBUG 2012-03-25 09:19:51,523 (EditorListener.java:205) Viewport changed: 36+25
+DEBUG 2012-03-25 09:19:51,563 (EditorListener.java:205) Viewport changed: 35+25
+DEBUG 2012-03-25 09:19:51,589 (EditorListener.java:205) Viewport changed: 33+24
+DEBUG 2012-03-25 09:19:51,628 (EditorListener.java:205) Viewport changed: 31+24
+DEBUG 2012-03-25 09:19:51,656 (EditorListener.java:205) Viewport changed: 27+25
+DEBUG 2012-03-25 09:19:51,694 (EditorListener.java:205) Viewport changed: 25+24
+DEBUG 2012-03-25 09:19:51,722 (EditorListener.java:205) Viewport changed: 22+25
+DEBUG 2012-03-25 09:19:51,760 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[663:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/selectionMenu.java, projectID=918947001],range:(22,47))]]
+DEBUG 2012-03-25 09:19:51,761 (EditorListener.java:205) Viewport changed: 19+24
+DEBUG 2012-03-25 09:19:51,794 (EditorListener.java:205) Viewport changed: 15+24
+DEBUG 2012-03-25 09:19:51,829 (EditorListener.java:205) Viewport changed: 14+24
+DEBUG 2012-03-25 09:19:51,856 (EditorListener.java:205) Viewport changed: 9+25
+DEBUG 2012-03-25 09:19:51,898 (EditorListener.java:205) Viewport changed: 7+25
+DEBUG 2012-03-25 09:19:51,929 (EditorListener.java:205) Viewport changed: 3+25
+DEBUG 2012-03-25 09:19:51,963 (EditorListener.java:205) Viewport changed: 1+24
+DEBUG 2012-03-25 09:19:51,996 (EditorListener.java:205) Viewport changed: 0+25
+DEBUG 2012-03-25 09:19:52,060 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[664:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/selectionMenu.java, projectID=918947001],range:(0,25))]]
+DEBUG 2012-03-25 09:20:00,934 (XMPPTransmitter.java:649) Sent (003) [jwewsuk@gmail.com/Saros44393D25] [[669:EditorActivityDataObject(type:Activated,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])], [670:TextSelectionActivityDataObject(offset:0,length:398,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])], [671:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001],range:(0,23))]]
+DEBUG 2012-03-25 09:20:00,946 (ActivitiesHandler.java:113) Rcvd (001) [jwewsuk@gmail.com/Saros44393D25] : [[3:EditorActivityDataObject(type:Activated,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:01,049 (ActivitiesHandler.java:113) Rcvd (002) [jwewsuk@gmail.com/Saros44393D25] : [[4:TextSelectionActivityDataObject(offset:0,length:0,src:jwewsuk@gmail.com/Saros44393D25,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])], [5:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001],range:(0,1))]]
+DEBUG 2012-03-25 09:20:01,097 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[672:EditorActivityDataObject(type:Activated,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:01,235 (XMPPTransmitter.java:649) Sent (002) [jwewsuk@gmail.com/Saros44393D25] [[673:TextSelectionActivityDataObject(offset:0,length:398,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])], [674:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001],range:(0,23))]]
+DEBUG 2012-03-25 09:20:01,253 (ActivitiesHandler.java:113) Rcvd (004) [jwewsuk@gmail.com/Saros44393D25] : [[6:EditorActivityDataObject(type:Activated,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])], [7:EditorActivityDataObject(type:Activated,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])], [8:TextSelectionActivityDataObject(offset:0,length:0,src:jwewsuk@gmail.com/Saros44393D25,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])], [9:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001],range:(0,23))]]
+DEBUG 2012-03-25 09:20:02,254 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[675:TextSelectionActivityDataObject(offset:395,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:03,847 (XMPPTransmitter.java:649) Sent (003) [jwewsuk@gmail.com/Saros44393D25] [[678:Checksum(path:SPathDataObject [editorType=txt, path=src/areaCalc.java, projectID=918947001],hash:2136755872,length:3089,vectorTime:null)], [679:Checksum(path:SPathDataObject [editorType=txt, path=src/Test2.java, projectID=918947001],hash:1738087158,length:2125,vectorTime:null)], [680:TextSelectionActivityDataObject(offset:396,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:04,290 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[681:TextSelectionActivityDataObject(offset:395,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:04,474 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[682:TextSelectionActivityDataObject(offset:391,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:04,805 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[683:JupiterActivityDataObject([0,0],Split(Delete(391,'\t'), Insert(391,'\n\t\t',391)),jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 09:20:04,810 (EditorListener.java:205) Viewport changed: 0+24
+DEBUG 2012-03-25 09:20:04,979 (EditorListener.java:205) Viewport changed: 0+25
+DEBUG 2012-03-25 09:20:05,048 (XMPPTransmitter.java:649) Sent (003) [jwewsuk@gmail.com/Saros44393D25] [[684:JupiterActivityDataObject([1,0],Insert(394,'\n\t\t',394),jrbaca@gmail.com/Saros9EF66DE5)], [685:TextSelectionActivityDataObject(offset:394,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])], [686:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001],range:(0,25))]]
+DEBUG 2012-03-25 09:20:05,232 (ActivitiesHandler.java:113) Rcvd (001) [jwewsuk@gmail.com/Saros44393D25] : [[10:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001],range:(0,24))]]
+DEBUG 2012-03-25 09:20:05,348 (XMPPTransmitter.java:649) Sent (002) [jwewsuk@gmail.com/Saros44393D25] [[687:JupiterActivityDataObject([2,0],Insert(397,'\n\t\t',397),jrbaca@gmail.com/Saros9EF66DE5)], [688:TextSelectionActivityDataObject(offset:400,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:05,650 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[689:TextSelectionActivityDataObject(offset:397,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:05,656 (ActivitiesHandler.java:113) Rcvd (001) [jwewsuk@gmail.com/Saros44393D25] : [[11:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001],range:(0,25))]]
+DEBUG 2012-03-25 09:20:05,951 (XMPPTransmitter.java:649) Sent (005) [jwewsuk@gmail.com/Saros44393D25] [[690:JupiterActivityDataObject([3,0],Insert(397,'a',397),jrbaca@gmail.com/Saros9EF66DE5)], [691:JupiterActivityDataObject([4,0],Insert(398,'s',398),jrbaca@gmail.com/Saros9EF66DE5)], [692:JupiterActivityDataObject([5,0],Insert(399,'d',399),jrbaca@gmail.com/Saros9EF66DE5)], [693:JupiterActivityDataObject([6,0],Insert(400,'f',400),jrbaca@gmail.com/Saros9EF66DE5)], [694:TextSelectionActivityDataObject(offset:400,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:06,204 (ActivitiesHandler.java:113) Rcvd (001) [jwewsuk@gmail.com/Saros44393D25] : [[12:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001],range:(0,26))]]
+DEBUG 2012-03-25 09:20:06,252 (XMPPTransmitter.java:649) Sent (004) [jwewsuk@gmail.com/Saros44393D25] [[695:JupiterActivityDataObject([7,0],Insert(401,'a',401),jrbaca@gmail.com/Saros9EF66DE5)], [696:JupiterActivityDataObject([8,0],Insert(402,'s',402),jrbaca@gmail.com/Saros9EF66DE5)], [697:JupiterActivityDataObject([9,0],Insert(403,'d',403),jrbaca@gmail.com/Saros9EF66DE5)], [698:TextSelectionActivityDataObject(offset:401,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:06,553 (XMPPTransmitter.java:649) Sent (002) [jwewsuk@gmail.com/Saros44393D25] [[699:JupiterActivityDataObject([10,0],Insert(404,'f',404),jrbaca@gmail.com/Saros9EF66DE5)], [700:TextSelectionActivityDataObject(offset:405,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:06,854 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[701:JupiterActivityDataObject([11,0],Insert(405,'i',405),jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 09:20:07,154 (XMPPTransmitter.java:649) Sent (003) [jwewsuk@gmail.com/Saros44393D25] [[702:JupiterActivityDataObject([12,0],Insert(406,'j',406),jrbaca@gmail.com/Saros9EF66DE5)], [703:JupiterActivityDataObject([13,0],Insert(407,'i',407),jrbaca@gmail.com/Saros9EF66DE5)], [704:TextSelectionActivityDataObject(offset:408,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:07,454 (XMPPTransmitter.java:649) Sent (002) [jwewsuk@gmail.com/Saros44393D25] [[705:JupiterActivityDataObject([14,0],Insert(408,'u',408),jrbaca@gmail.com/Saros9EF66DE5)], [706:TextSelectionActivityDataObject(offset:409,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:07,755 (XMPPTransmitter.java:649) Sent (003) [jwewsuk@gmail.com/Saros44393D25] [[707:JupiterActivityDataObject([15,0],Insert(409,'h',409),jrbaca@gmail.com/Saros9EF66DE5)], [708:JupiterActivityDataObject([16,0],Insert(410,'a',410),jrbaca@gmail.com/Saros9EF66DE5)], [709:TextSelectionActivityDataObject(offset:410,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:08,056 (XMPPTransmitter.java:649) Sent (002) [jwewsuk@gmail.com/Saros44393D25] [[710:JupiterActivityDataObject([17,0],Insert(411,'n',411),jrbaca@gmail.com/Saros9EF66DE5)], [711:TextSelectionActivityDataObject(offset:412,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:08,357 (XMPPTransmitter.java:649) Sent (002) [jwewsuk@gmail.com/Saros44393D25] [[712:JupiterActivityDataObject([18,0],Insert(412,'u',412),jrbaca@gmail.com/Saros9EF66DE5)], [713:TextSelectionActivityDataObject(offset:413,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:08,667 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[714:JupiterActivityDataObject([19,0],Delete(412,'u'),jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 09:20:08,958 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[715:TextSelectionActivityDataObject(offset:412,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:09,259 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[716:JupiterActivityDataObject([20,0],Delete(411,'n'),jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 09:20:09,560 (XMPPTransmitter.java:649) Sent (002) [jwewsuk@gmail.com/Saros44393D25] [[717:JupiterActivityDataObject([21,0],Delete(410,'a'),jrbaca@gmail.com/Saros9EF66DE5)], [718:JupiterActivityDataObject([22,0],Delete(409,'h'),jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 09:20:09,860 (XMPPTransmitter.java:649) Sent (003) [jwewsuk@gmail.com/Saros44393D25] [[719:JupiterActivityDataObject([23,0],Delete(408,'u'),jrbaca@gmail.com/Saros9EF66DE5)], [720:JupiterActivityDataObject([24,0],Delete(407,'i'),jrbaca@gmail.com/Saros9EF66DE5)], [721:TextSelectionActivityDataObject(offset:407,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:10,160 (XMPPTransmitter.java:649) Sent (003) [jwewsuk@gmail.com/Saros44393D25] [[722:JupiterActivityDataObject([25,0],Delete(406,'j'),jrbaca@gmail.com/Saros9EF66DE5)], [723:JupiterActivityDataObject([26,0],Delete(405,'i'),jrbaca@gmail.com/Saros9EF66DE5)], [724:TextSelectionActivityDataObject(offset:406,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:10,460 (XMPPTransmitter.java:649) Sent (003) [jwewsuk@gmail.com/Saros44393D25] [[725:JupiterActivityDataObject([27,0],Delete(404,'f'),jrbaca@gmail.com/Saros9EF66DE5)], [726:JupiterActivityDataObject([28,0],Delete(403,'d'),jrbaca@gmail.com/Saros9EF66DE5)], [727:TextSelectionActivityDataObject(offset:404,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:10,760 (XMPPTransmitter.java:649) Sent (003) [jwewsuk@gmail.com/Saros44393D25] [[728:JupiterActivityDataObject([29,0],Delete(402,'s'),jrbaca@gmail.com/Saros9EF66DE5)], [729:JupiterActivityDataObject([30,0],Delete(401,'a'),jrbaca@gmail.com/Saros9EF66DE5)], [730:TextSelectionActivityDataObject(offset:402,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:11,061 (XMPPTransmitter.java:649) Sent (003) [jwewsuk@gmail.com/Saros44393D25] [[731:JupiterActivityDataObject([31,0],Delete(400,'f'),jrbaca@gmail.com/Saros9EF66DE5)], [732:JupiterActivityDataObject([32,0],Delete(399,'d'),jrbaca@gmail.com/Saros9EF66DE5)], [733:TextSelectionActivityDataObject(offset:400,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:11,361 (XMPPTransmitter.java:649) Sent (002) [jwewsuk@gmail.com/Saros44393D25] [[734:JupiterActivityDataObject([33,0],Delete(398,'s'),jrbaca@gmail.com/Saros9EF66DE5)], [735:TextSelectionActivityDataObject(offset:398,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:11,662 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[736:JupiterActivityDataObject([34,0],Delete(397,'a'),jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 09:20:11,963 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[737:TextSelectionActivityDataObject(offset:397,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:18,186 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[742:JupiterActivityDataObject([35,0],Insert(397,'x',397),jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 09:20:18,306 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[743:TextSelectionActivityDataObject(offset:398,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:20,620 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[744:JupiterActivityDataObject([36,0],Delete(397,'x'),jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 09:20:20,722 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[745:TextSelectionActivityDataObject(offset:397,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:21,302 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[746:JupiterActivityDataObject([37,0],Insert(397,'1',397),jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 09:20:21,412 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[747:TextSelectionActivityDataObject(offset:398,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:23,035 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[748:JupiterActivityDataObject([38,0],Insert(398,'\n\t\t',398),jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 09:20:23,139 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[749:TextSelectionActivityDataObject(offset:401,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:23,437 (ActivitiesHandler.java:113) Rcvd (001) [jwewsuk@gmail.com/Saros44393D25] : [[13:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001],range:(0,27))]]
+DEBUG 2012-03-25 09:20:24,379 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[754:JupiterActivityDataObject([39,0],Insert(401,'-',401),jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 09:20:24,467 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[755:TextSelectionActivityDataObject(offset:402,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:24,681 (XMPPTransmitter.java:649) Sent (002) [jwewsuk@gmail.com/Saros44393D25] [[756:JupiterActivityDataObject([40,0],Insert(402,'-',402),jrbaca@gmail.com/Saros9EF66DE5)], [757:TextSelectionActivityDataObject(offset:403,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:24,981 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[758:JupiterActivityDataObject([41,0],Delete(402,'-'),jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 09:20:25,282 (XMPPTransmitter.java:649) Sent (002) [jwewsuk@gmail.com/Saros44393D25] [[759:JupiterActivityDataObject([42,0],Delete(401,'-'),jrbaca@gmail.com/Saros9EF66DE5)], [760:TextSelectionActivityDataObject(offset:401,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:25,616 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[761:JupiterActivityDataObject([43,0],Insert(401,'_',401),jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 09:20:25,884 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[762:TextSelectionActivityDataObject(offset:402,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:26,370 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[763:JupiterActivityDataObject([44,0],Insert(402,'\n\t\t',402),jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 09:20:26,485 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[764:TextSelectionActivityDataObject(offset:405,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:27,099 (ActivitiesHandler.java:113) Rcvd (001) [jwewsuk@gmail.com/Saros44393D25] : [[14:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001],range:(0,28))]]
+DEBUG 2012-03-25 09:20:28,532 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[765:JupiterActivityDataObject([45,0],Insert(405,'x',405),jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 09:20:28,706 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[766:TextSelectionActivityDataObject(offset:406,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:30,779 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[767:JupiterActivityDataObject([46,0],Insert(406,'^',406),jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 09:20:30,889 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[768:TextSelectionActivityDataObject(offset:407,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:32,194 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[769:JupiterActivityDataObject([47,0],Insert(407,'4',407),jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 09:20:32,314 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[770:TextSelectionActivityDataObject(offset:408,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:32,979 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[771:JupiterActivityDataObject([48,0],Insert(408,'\n\t\t',408),jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 09:20:33,096 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[772:TextSelectionActivityDataObject(offset:411,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:33,366 (ActivitiesHandler.java:113) Rcvd (001) [jwewsuk@gmail.com/Saros44393D25] : [[15:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001],range:(0,29))]]
+DEBUG 2012-03-25 09:20:33,978 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[777:JupiterActivityDataObject([49,0],Insert(411,'_',411),jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 09:20:34,185 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[778:TextSelectionActivityDataObject(offset:412,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:34,485 (XMPPTransmitter.java:649) Sent (002) [jwewsuk@gmail.com/Saros44393D25] [[779:JupiterActivityDataObject([50,0],Insert(412,'_',412),jrbaca@gmail.com/Saros9EF66DE5)], [780:TextSelectionActivityDataObject(offset:413,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:34,786 (XMPPTransmitter.java:649) Sent (002) [jwewsuk@gmail.com/Saros44393D25] [[781:JupiterActivityDataObject([51,0],Insert(413,'_',413),jrbaca@gmail.com/Saros9EF66DE5)], [782:TextSelectionActivityDataObject(offset:414,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:36,266 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[783:TextSelectionActivityDataObject(offset:408,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:36,585 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[784:TextSelectionActivityDataObject(offset:402,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:37,274 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[785:JupiterActivityDataObject([52,0],Insert(402,'_',402),jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 09:20:37,351 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[786:TextSelectionActivityDataObject(offset:403,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:37,575 (XMPPTransmitter.java:649) Sent (002) [jwewsuk@gmail.com/Saros44393D25] [[787:JupiterActivityDataObject([53,0],Insert(403,'_',403),jrbaca@gmail.com/Saros9EF66DE5)], [788:TextSelectionActivityDataObject(offset:404,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:38,129 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[789:TextSelectionActivityDataObject(offset:398,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:38,321 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[790:TextSelectionActivityDataObject(offset:397,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:38,850 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[791:JupiterActivityDataObject([54,0],Insert(397,' ',397),jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 09:20:38,930 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[792:TextSelectionActivityDataObject(offset:398,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:39,594 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[793:TextSelectionActivityDataObject(offset:403,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:39,786 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[794:TextSelectionActivityDataObject(offset:409,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:39,988 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[795:TextSelectionActivityDataObject(offset:415,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:40,178 (EditorListener.java:205) Viewport changed: 1+25
+DEBUG 2012-03-25 09:20:40,199 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[796:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001],range:(1,26))]]
+DEBUG 2012-03-25 09:20:40,499 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[797:TextSelectionActivityDataObject(offset:420,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:40,560 (EditorListener.java:205) Viewport changed: 2+25
+DEBUG 2012-03-25 09:20:40,800 (XMPPTransmitter.java:649) Sent (002) [jwewsuk@gmail.com/Saros44393D25] [[798:TextSelectionActivityDataObject(offset:421,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])], [799:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001],range:(2,27))]]
+DEBUG 2012-03-25 09:20:41,305 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[800:TextSelectionActivityDataObject(offset:420,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:42,083 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[801:JupiterActivityDataObject([55,0],Insert(420,' ',420),jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 09:20:42,273 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[802:TextSelectionActivityDataObject(offset:421,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:45,810 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[807:JupiterActivityDataObject([56,0],Insert(421,'1',421),jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 09:20:45,921 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[808:TextSelectionActivityDataObject(offset:422,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:47,238 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[809:JupiterActivityDataObject([57,0],Insert(422,'\n\t\t ',422),jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 09:20:47,377 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[810:TextSelectionActivityDataObject(offset:426,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:47,618 (ActivitiesHandler.java:113) Rcvd (001) [jwewsuk@gmail.com/Saros44393D25] : [[16:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001],range:(0,30))]]
+DEBUG 2012-03-25 09:20:48,874 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[811:JupiterActivityDataObject([58,0],Insert(426,'_',426),jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 09:20:48,956 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[812:TextSelectionActivityDataObject(offset:427,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:49,175 (XMPPTransmitter.java:649) Sent (002) [jwewsuk@gmail.com/Saros44393D25] [[813:JupiterActivityDataObject([59,0],Insert(427,'_',427),jrbaca@gmail.com/Saros9EF66DE5)], [814:TextSelectionActivityDataObject(offset:428,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:51,083 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[815:JupiterActivityDataObject([60,0],Insert(428,'\n\t\t ',428),jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 09:20:51,104 (EditorListener.java:205) Viewport changed: 3+25
+DEBUG 2012-03-25 09:20:51,113 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[816:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001],range:(3,28))]]
+DEBUG 2012-03-25 09:20:51,384 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[817:TextSelectionActivityDataObject(offset:432,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:51,474 (ActivitiesHandler.java:113) Rcvd (001) [jwewsuk@gmail.com/Saros44393D25] : [[17:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001],range:(0,31))]]
+DEBUG 2012-03-25 09:20:52,047 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[818:JupiterActivityDataObject([61,0],Insert(432,'x',432),jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 09:20:52,241 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[819:TextSelectionActivityDataObject(offset:433,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:53,130 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[820:JupiterActivityDataObject([62,0],Insert(433,'^',433),jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 09:20:53,217 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[821:TextSelectionActivityDataObject(offset:434,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:53,466 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[822:JupiterActivityDataObject([63,0],Insert(434,'5',434),jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 09:20:53,734 (XMPPTransmitter.java:649) Sent (005) [jwewsuk@gmail.com/Saros44393D25] [[823:Checksum(path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001],hash:563084359,length:441,vectorTime:null)], [824:Checksum(path:SPathDataObject [editorType=txt, path=src/selectionMenu.java, projectID=918947001],hash:479396807,length:1092,vectorTime:null)], [825:Checksum(path:SPathDataObject [editorType=txt, path=src/areaCalc.java, projectID=918947001],hash:2136755872,length:3089,vectorTime:null)], [826:Checksum(path:SPathDataObject [editorType=txt, path=src/Test2.java, projectID=918947001],hash:1738087158,length:2125,vectorTime:null)], [827:TextSelectionActivityDataObject(offset:435,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:56,617 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[828:TextSelectionActivityDataObject(offset:417,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:57,498 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[829:JupiterActivityDataObject([64,0],Insert(417,'_',417),jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 09:20:57,578 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[830:TextSelectionActivityDataObject(offset:418,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:57,800 (XMPPTransmitter.java:649) Sent (002) [jwewsuk@gmail.com/Saros44393D25] [[831:JupiterActivityDataObject([65,0],Insert(418,'_',418),jrbaca@gmail.com/Saros9EF66DE5)], [832:TextSelectionActivityDataObject(offset:419,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:58,101 (XMPPTransmitter.java:649) Sent (003) [jwewsuk@gmail.com/Saros44393D25] [[833:JupiterActivityDataObject([66,0],Insert(419,'_',419),jrbaca@gmail.com/Saros9EF66DE5)], [834:JupiterActivityDataObject([67,0],Insert(420,'_',420),jrbaca@gmail.com/Saros9EF66DE5)], [835:TextSelectionActivityDataObject(offset:421,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:59,206 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[836:TextSelectionActivityDataObject(offset:424,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:59,450 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[837:JupiterActivityDataObject([68,0],Insert(424,' ',424),jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 09:20:59,577 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[838:TextSelectionActivityDataObject(offset:425,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:20:59,811 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[839:JupiterActivityDataObject([69,0],Insert(425,' ',425),jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 09:21:00,110 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[840:TextSelectionActivityDataObject(offset:426,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:21:00,411 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[841:TextSelectionActivityDataObject(offset:437,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:21:00,712 (XMPPTransmitter.java:649) Sent (002) [jwewsuk@gmail.com/Saros44393D25] [[842:JupiterActivityDataObject([70,0],Insert(437,' ',437),jrbaca@gmail.com/Saros9EF66DE5)], [843:TextSelectionActivityDataObject(offset:438,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:21:02,432 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[844:TextSelectionActivityDataObject(offset:431,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:21:03,867 (XMPPTransmitter.java:649) Sent (004) [jwewsuk@gmail.com/Saros44393D25] [[847:Checksum(path:SPathDataObject [editorType=txt, path=src/areaCalc.java, projectID=918947001],hash:2136755872,length:3089,vectorTime:null)], [848:Checksum(path:SPathDataObject [editorType=txt, path=src/Test2.java, projectID=918947001],hash:1738087158,length:2125,vectorTime:null)], [849:JupiterActivityDataObject([71,0],Insert(431,'_',431),jrbaca@gmail.com/Saros9EF66DE5)], [850:TextSelectionActivityDataObject(offset:432,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:21:04,690 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[851:TextSelectionActivityDataObject(offset:428,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:21:05,709 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[852:TextSelectionActivityDataObject(offset:433,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:21:06,597 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[853:JupiterActivityDataObject([72,0],Delete(432,' '),jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 09:21:06,710 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[854:TextSelectionActivityDataObject(offset:432,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:21:07,098 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[855:JupiterActivityDataObject([73,0],Insert(432,'_',432),jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 09:21:07,199 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[856:TextSelectionActivityDataObject(offset:433,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:21:08,624 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[857:TextSelectionActivityDataObject(offset:443,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:21:08,755 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[858:TextSelectionActivityDataObject(offset:435,length:8,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:21:08,926 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[859:TextSelectionActivityDataObject(offset:401,length:42,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:21:09,228 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[860:TextSelectionActivityDataObject(offset:395,length:48,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:21:10,603 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[861:JupiterActivityDataObject([74,0],Delete(395,'\t\t 1\n\t\t___\n\t\tx^4\n\t\t_______\n\t\t   1\n\t\t____\n\t\t  x^5'),jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 09:21:10,605 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[862:TextSelectionActivityDataObject(offset:395,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:21:10,612 (EditorListener.java:205) Viewport changed: 0+25
+DEBUG 2012-03-25 09:21:10,904 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[863:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001],range:(0,25))]]
+DEBUG 2012-03-25 09:21:10,997 (ActivitiesHandler.java:113) Rcvd (001) [jwewsuk@gmail.com/Saros44393D25] : [[18:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001],range:(0,25))]]
+DEBUG 2012-03-25 09:21:11,323 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[864:JupiterActivityDataObject([75,0],Delete(394,'\n'),jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 09:21:11,324 (EditorListener.java:205) Viewport changed: 0+24
+DEBUG 2012-03-25 09:21:11,503 (XMPPTransmitter.java:649) Sent (002) [jwewsuk@gmail.com/Saros44393D25] [[865:TextSelectionActivityDataObject(offset:394,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])], [866:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001],range:(0,24))]]
+DEBUG 2012-03-25 09:21:11,773 (ActivitiesHandler.java:113) Rcvd (001) [jwewsuk@gmail.com/Saros44393D25] : [[19:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001],range:(0,24))]]
+DEBUG 2012-03-25 09:21:15,623 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[871:JupiterActivityDataObject([76,0],Insert(394,'\n',394),jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 09:21:15,624 (EditorListener.java:205) Viewport changed: 0+25
+DEBUG 2012-03-25 09:21:15,626 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[872:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001],range:(0,25))]]
+DEBUG 2012-03-25 09:21:15,927 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[873:TextSelectionActivityDataObject(offset:394,length:1,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:21:16,000 (ActivitiesHandler.java:113) Rcvd (001) [jwewsuk@gmail.com/Saros44393D25] : [[20:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001],range:(0,25))]]
+DEBUG 2012-03-25 09:21:16,529 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[874:JupiterActivityDataObject([77,0],Insert(395,'\t\t 1\n\t\t___\n\t\tx^4\n\t\t_______\n\t\t   1\n\t\t____\n\t\t  x^5',395),jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 09:21:16,534 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[875:TextSelectionActivityDataObject(offset:395,length:48,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:21:16,554 (EditorListener.java:205) Viewport changed: 6+25
+DEBUG 2012-03-25 09:21:16,831 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[876:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001],range:(6,31))]]
+DEBUG 2012-03-25 09:21:16,924 (ActivitiesHandler.java:113) Rcvd (001) [jwewsuk@gmail.com/Saros44393D25] : [[21:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001],range:(0,31))]]
+ERROR 2012-03-25 09:26:35,397 (SarosNet.java:451) XMPP Connection Error: 
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at com.sun.net.ssl.internal.ssl.InputRecord.readFully(InputRecord.java:293)
+	at com.sun.net.ssl.internal.ssl.InputRecord.read(InputRecord.java:331)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:830)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:787)
+	at com.sun.net.ssl.internal.ssl.AppInputStream.read(AppInputStream.java:75)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:264)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:306)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:158)
+	at java.io.InputStreamReader.read(InputStreamReader.java:167)
+	at java.io.BufferedReader.fill(BufferedReader.java:136)
+	at java.io.BufferedReader.read1(BufferedReader.java:187)
+	at java.io.BufferedReader.read(BufferedReader.java:261)
+	at org.xmlpull.mxp1.MXParser.fillBuf(MXParser.java:2992)
+	at org.xmlpull.mxp1.MXParser.more(MXParser.java:3046)
+	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1144)
+	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:325)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:43)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:70)
+ERROR 2012-03-25 09:26:35,527 (SarosNet.java:430) New Connection State == ERROR
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at com.sun.net.ssl.internal.ssl.InputRecord.readFully(InputRecord.java:293)
+	at com.sun.net.ssl.internal.ssl.InputRecord.read(InputRecord.java:331)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:830)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:787)
+	at com.sun.net.ssl.internal.ssl.AppInputStream.read(AppInputStream.java:75)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:264)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:306)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:158)
+	at java.io.InputStreamReader.read(InputStreamReader.java:167)
+	at java.io.BufferedReader.fill(BufferedReader.java:136)
+	at java.io.BufferedReader.read1(BufferedReader.java:187)
+	at java.io.BufferedReader.read(BufferedReader.java:261)
+	at org.xmlpull.mxp1.MXParser.fillBuf(MXParser.java:2992)
+	at org.xmlpull.mxp1.MXParser.more(MXParser.java:3046)
+	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1144)
+	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:325)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:43)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:70)
+INFO  2012-03-25 09:26:35,693 (SarosNet.java:479) Reconnecting...(Joseph-Bacas-MacBook-Pro.local/192.168.1.124)
+INFO  2012-03-25 09:26:35,693 (SarosNet.java:496) Login failed:null
+INFO  2012-03-25 09:26:35,694 (SarosNet.java:479) Reconnecting...(Joseph-Bacas-MacBook-Pro.local/192.168.1.124)
+INFO  2012-03-25 09:26:35,694 (SarosNet.java:496) Login failed:null
+INFO  2012-03-25 09:26:35,694 (SarosNet.java:479) Reconnecting...(Joseph-Bacas-MacBook-Pro.local/192.168.1.124)
+INFO  2012-03-25 09:26:35,694 (SarosNet.java:496) Login failed:null
+INFO  2012-03-25 09:26:35,694 (SarosNet.java:479) Reconnecting...(Joseph-Bacas-MacBook-Pro.local/192.168.1.124)
+INFO  2012-03-25 09:26:35,695 (SarosNet.java:496) Login failed:null
+INFO  2012-03-25 09:26:35,695 (SarosNet.java:479) Reconnecting...(Joseph-Bacas-MacBook-Pro.local/192.168.1.124)
+INFO  2012-03-25 09:26:35,695 (SarosNet.java:496) Login failed:null
+INFO  2012-03-25 09:26:35,695 (SarosNet.java:479) Reconnecting...(Joseph-Bacas-MacBook-Pro.local/192.168.1.124)
+INFO  2012-03-25 09:26:35,695 (SarosNet.java:496) Login failed:null
+INFO  2012-03-25 09:26:35,696 (SarosNet.java:479) Reconnecting...(Joseph-Bacas-MacBook-Pro.local/192.168.1.124)
+INFO  2012-03-25 09:26:35,696 (SarosNet.java:496) Login failed:null
+INFO  2012-03-25 09:26:35,696 (SarosNet.java:479) Reconnecting...(Joseph-Bacas-MacBook-Pro.local/192.168.1.124)
+INFO  2012-03-25 09:26:35,696 (SarosNet.java:496) Login failed:null
+INFO  2012-03-25 09:26:35,697 (SarosNet.java:479) Reconnecting...(Joseph-Bacas-MacBook-Pro.local/192.168.1.124)
+INFO  2012-03-25 09:26:35,697 (SarosNet.java:496) Login failed:null
+INFO  2012-03-25 09:26:35,697 (SarosNet.java:479) Reconnecting...(Joseph-Bacas-MacBook-Pro.local/192.168.1.124)
+INFO  2012-03-25 09:26:35,697 (SarosNet.java:496) Login failed:null
+INFO  2012-03-25 09:26:35,697 (SarosNet.java:479) Reconnecting...(Joseph-Bacas-MacBook-Pro.local/192.168.1.124)
+INFO  2012-03-25 09:26:35,698 (SarosNet.java:496) Login failed:null
+INFO  2012-03-25 09:26:35,698 (SarosNet.java:479) Reconnecting...(Joseph-Bacas-MacBook-Pro.local/192.168.1.124)
+INFO  2012-03-25 09:26:35,698 (SarosNet.java:496) Login failed:null
+INFO  2012-03-25 09:26:35,698 (SarosNet.java:479) Reconnecting...(Joseph-Bacas-MacBook-Pro.local/192.168.1.124)
+INFO  2012-03-25 09:26:35,698 (SarosNet.java:496) Login failed:null
+INFO  2012-03-25 09:26:35,699 (SarosNet.java:479) Reconnecting...(Joseph-Bacas-MacBook-Pro.local/192.168.1.124)
+INFO  2012-03-25 09:26:35,699 (SarosNet.java:496) Login failed:null
+INFO  2012-03-25 09:26:35,699 (SarosNet.java:479) Reconnecting...(Joseph-Bacas-MacBook-Pro.local/192.168.1.124)
+INFO  2012-03-25 09:26:35,699 (SarosNet.java:496) Login failed:null
+INFO  2012-03-25 09:40:37,157 (XMPPTransmitter.java:988) Could not send message, thus queueing
+java.io.IOException: Connection is not open
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageWithoutQueueing(XMPPTransmitter.java:1029)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageToUser(XMPPTransmitter.java:986)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageToUser(XMPPTransmitter.java:940)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToProjectUser(XMPPTransmitter.java:746)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToProjectUser(XMPPTransmitter.java:724)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToProjectUser(XMPPTransmitter.java:694)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendTimedActivities(XMPPTransmitter.java:635)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.sendActivities(ActivitySequencer.java:679)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.flushTask(ActivitySequencer.java:594)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.access$0(ActivitySequencer.java:547)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2$1.run(ActivitySequencer.java:542)
+	at de.fu_berlin.inf.dpp.util.Utils$6.run(Utils.java:377)
+	at de.fu_berlin.inf.dpp.util.Utils.runSafeSync(Utils.java:553)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.run(ActivitySequencer.java:540)
+	at java.util.TimerThread.mainLoop(Timer.java:512)
+	at java.util.TimerThread.run(Timer.java:462)
+DEBUG 2012-03-25 09:40:37,228 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[1005:JupiterActivityDataObject([78,0],Delete(395,'\t\t 1\n\t\t___\n\t\tx^4\n\t\t_______\n\t\t   1\n\t\t____\n\t\t  x^5'),jrbaca@gmail.com/Saros9EF66DE5)]]
+INFO  2012-03-25 09:40:37,231 (XMPPTransmitter.java:988) Could not send message, thus queueing
+java.io.IOException: Connection is not open
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageWithoutQueueing(XMPPTransmitter.java:1029)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageToUser(XMPPTransmitter.java:986)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageToUser(XMPPTransmitter.java:940)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToProjectUser(XMPPTransmitter.java:746)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToProjectUser(XMPPTransmitter.java:724)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToProjectUser(XMPPTransmitter.java:694)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendTimedActivities(XMPPTransmitter.java:635)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.sendActivities(ActivitySequencer.java:679)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.flushTask(ActivitySequencer.java:594)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.access$0(ActivitySequencer.java:547)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2$1.run(ActivitySequencer.java:542)
+	at de.fu_berlin.inf.dpp.util.Utils$6.run(Utils.java:377)
+	at de.fu_berlin.inf.dpp.util.Utils.runSafeSync(Utils.java:553)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.run(ActivitySequencer.java:540)
+	at java.util.TimerThread.mainLoop(Timer.java:512)
+	at java.util.TimerThread.run(Timer.java:462)
+DEBUG 2012-03-25 09:40:37,231 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[1006:TextSelectionActivityDataObject(offset:401,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:40:37,240 (EditorListener.java:205) Viewport changed: 0+25
+INFO  2012-03-25 09:40:37,531 (XMPPTransmitter.java:988) Could not send message, thus queueing
+java.io.IOException: Connection is not open
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageWithoutQueueing(XMPPTransmitter.java:1029)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageToUser(XMPPTransmitter.java:986)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageToUser(XMPPTransmitter.java:940)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToProjectUser(XMPPTransmitter.java:746)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToProjectUser(XMPPTransmitter.java:724)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToProjectUser(XMPPTransmitter.java:694)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendTimedActivities(XMPPTransmitter.java:635)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.sendActivities(ActivitySequencer.java:679)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.flushTask(ActivitySequencer.java:594)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.access$0(ActivitySequencer.java:547)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2$1.run(ActivitySequencer.java:542)
+	at de.fu_berlin.inf.dpp.util.Utils$6.run(Utils.java:377)
+	at de.fu_berlin.inf.dpp.util.Utils.runSafeSync(Utils.java:553)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.run(ActivitySequencer.java:540)
+	at java.util.TimerThread.mainLoop(Timer.java:512)
+	at java.util.TimerThread.run(Timer.java:462)
+DEBUG 2012-03-25 09:40:37,532 (XMPPTransmitter.java:649) Sent (002) [jwewsuk@gmail.com/Saros44393D25] [[1007:TextSelectionActivityDataObject(offset:395,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])], [1008:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001],range:(0,25))]]
+DEBUG 2012-03-25 09:40:37,772 (EditorListener.java:205) Viewport changed: 0+24
+INFO  2012-03-25 09:40:37,832 (XMPPTransmitter.java:988) Could not send message, thus queueing
+java.io.IOException: Connection is not open
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageWithoutQueueing(XMPPTransmitter.java:1029)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageToUser(XMPPTransmitter.java:986)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageToUser(XMPPTransmitter.java:940)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToProjectUser(XMPPTransmitter.java:746)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToProjectUser(XMPPTransmitter.java:724)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToProjectUser(XMPPTransmitter.java:694)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendTimedActivities(XMPPTransmitter.java:635)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.sendActivities(ActivitySequencer.java:679)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.flushTask(ActivitySequencer.java:594)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.access$0(ActivitySequencer.java:547)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2$1.run(ActivitySequencer.java:542)
+	at de.fu_berlin.inf.dpp.util.Utils$6.run(Utils.java:377)
+	at de.fu_berlin.inf.dpp.util.Utils.runSafeSync(Utils.java:553)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.run(ActivitySequencer.java:540)
+	at java.util.TimerThread.mainLoop(Timer.java:512)
+	at java.util.TimerThread.run(Timer.java:462)
+DEBUG 2012-03-25 09:40:37,833 (XMPPTransmitter.java:649) Sent (002) [jwewsuk@gmail.com/Saros44393D25] [[1009:JupiterActivityDataObject([79,0],Delete(394,'\n'),jrbaca@gmail.com/Saros9EF66DE5)], [1010:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001],range:(0,24))]]
+INFO  2012-03-25 09:40:38,134 (XMPPTransmitter.java:988) Could not send message, thus queueing
+java.io.IOException: Connection is not open
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageWithoutQueueing(XMPPTransmitter.java:1029)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageToUser(XMPPTransmitter.java:986)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageToUser(XMPPTransmitter.java:940)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToProjectUser(XMPPTransmitter.java:746)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToProjectUser(XMPPTransmitter.java:724)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToProjectUser(XMPPTransmitter.java:694)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendTimedActivities(XMPPTransmitter.java:635)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.sendActivities(ActivitySequencer.java:679)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.flushTask(ActivitySequencer.java:594)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.access$0(ActivitySequencer.java:547)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2$1.run(ActivitySequencer.java:542)
+	at de.fu_berlin.inf.dpp.util.Utils$6.run(Utils.java:377)
+	at de.fu_berlin.inf.dpp.util.Utils.runSafeSync(Utils.java:553)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.run(ActivitySequencer.java:540)
+	at java.util.TimerThread.mainLoop(Timer.java:512)
+	at java.util.TimerThread.run(Timer.java:462)
+DEBUG 2012-03-25 09:40:38,135 (XMPPTransmitter.java:649) Sent (002) [jwewsuk@gmail.com/Saros44393D25] [[1011:JupiterActivityDataObject([80,0],Delete(393,'\t'),jrbaca@gmail.com/Saros9EF66DE5)], [1012:TextSelectionActivityDataObject(offset:393,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+INFO  2012-03-25 09:40:38,435 (XMPPTransmitter.java:988) Could not send message, thus queueing
+java.io.IOException: Connection is not open
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageWithoutQueueing(XMPPTransmitter.java:1029)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageToUser(XMPPTransmitter.java:986)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageToUser(XMPPTransmitter.java:940)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToProjectUser(XMPPTransmitter.java:746)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToProjectUser(XMPPTransmitter.java:724)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToProjectUser(XMPPTransmitter.java:694)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendTimedActivities(XMPPTransmitter.java:635)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.sendActivities(ActivitySequencer.java:679)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.flushTask(ActivitySequencer.java:594)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.access$0(ActivitySequencer.java:547)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2$1.run(ActivitySequencer.java:542)
+	at de.fu_berlin.inf.dpp.util.Utils$6.run(Utils.java:377)
+	at de.fu_berlin.inf.dpp.util.Utils.runSafeSync(Utils.java:553)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.run(ActivitySequencer.java:540)
+	at java.util.TimerThread.mainLoop(Timer.java:512)
+	at java.util.TimerThread.run(Timer.java:462)
+DEBUG 2012-03-25 09:40:38,436 (XMPPTransmitter.java:649) Sent (002) [jwewsuk@gmail.com/Saros44393D25] [[1013:JupiterActivityDataObject([81,0],Delete(392,'\t'),jrbaca@gmail.com/Saros9EF66DE5)], [1014:TextSelectionActivityDataObject(offset:392,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:40:38,470 (EditorListener.java:205) Viewport changed: 0+23
+INFO  2012-03-25 09:40:38,735 (XMPPTransmitter.java:988) Could not send message, thus queueing
+java.io.IOException: Connection is not open
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageWithoutQueueing(XMPPTransmitter.java:1029)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageToUser(XMPPTransmitter.java:986)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageToUser(XMPPTransmitter.java:940)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToProjectUser(XMPPTransmitter.java:746)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToProjectUser(XMPPTransmitter.java:724)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToProjectUser(XMPPTransmitter.java:694)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendTimedActivities(XMPPTransmitter.java:635)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.sendActivities(ActivitySequencer.java:679)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.flushTask(ActivitySequencer.java:594)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.access$0(ActivitySequencer.java:547)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2$1.run(ActivitySequencer.java:542)
+	at de.fu_berlin.inf.dpp.util.Utils$6.run(Utils.java:377)
+	at de.fu_berlin.inf.dpp.util.Utils.runSafeSync(Utils.java:553)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.run(ActivitySequencer.java:540)
+	at java.util.TimerThread.mainLoop(Timer.java:512)
+	at java.util.TimerThread.run(Timer.java:462)
+DEBUG 2012-03-25 09:40:38,736 (XMPPTransmitter.java:649) Sent (003) [jwewsuk@gmail.com/Saros44393D25] [[1015:JupiterActivityDataObject([82,0],Delete(391,'\n'),jrbaca@gmail.com/Saros9EF66DE5)], [1016:TextSelectionActivityDataObject(offset:391,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])], [1017:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001],range:(0,23))]]
+INFO  2012-03-25 09:40:39,037 (XMPPTransmitter.java:988) Could not send message, thus queueing
+java.io.IOException: Connection is not open
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageWithoutQueueing(XMPPTransmitter.java:1029)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageToUser(XMPPTransmitter.java:986)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageToUser(XMPPTransmitter.java:940)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToProjectUser(XMPPTransmitter.java:746)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToProjectUser(XMPPTransmitter.java:724)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToProjectUser(XMPPTransmitter.java:694)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendTimedActivities(XMPPTransmitter.java:635)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.sendActivities(ActivitySequencer.java:679)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.flushTask(ActivitySequencer.java:594)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.access$0(ActivitySequencer.java:547)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2$1.run(ActivitySequencer.java:542)
+	at de.fu_berlin.inf.dpp.util.Utils$6.run(Utils.java:377)
+	at de.fu_berlin.inf.dpp.util.Utils.runSafeSync(Utils.java:553)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.run(ActivitySequencer.java:540)
+	at java.util.TimerThread.mainLoop(Timer.java:512)
+	at java.util.TimerThread.run(Timer.java:462)
+DEBUG 2012-03-25 09:40:39,037 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[1018:JupiterActivityDataObject([83,0],Delete(390,'\t'),jrbaca@gmail.com/Saros9EF66DE5)]]
+DEBUG 2012-03-25 09:40:39,256 (EditorListener.java:205) Viewport changed: 0+22
+INFO  2012-03-25 09:40:39,338 (XMPPTransmitter.java:988) Could not send message, thus queueing
+java.io.IOException: Connection is not open
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageWithoutQueueing(XMPPTransmitter.java:1029)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageToUser(XMPPTransmitter.java:986)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageToUser(XMPPTransmitter.java:940)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToProjectUser(XMPPTransmitter.java:746)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToProjectUser(XMPPTransmitter.java:724)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToProjectUser(XMPPTransmitter.java:694)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendTimedActivities(XMPPTransmitter.java:635)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.sendActivities(ActivitySequencer.java:679)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.flushTask(ActivitySequencer.java:594)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.access$0(ActivitySequencer.java:547)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2$1.run(ActivitySequencer.java:542)
+	at de.fu_berlin.inf.dpp.util.Utils$6.run(Utils.java:377)
+	at de.fu_berlin.inf.dpp.util.Utils.runSafeSync(Utils.java:553)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.run(ActivitySequencer.java:540)
+	at java.util.TimerThread.mainLoop(Timer.java:512)
+	at java.util.TimerThread.run(Timer.java:462)
+DEBUG 2012-03-25 09:40:39,338 (XMPPTransmitter.java:649) Sent (003) [jwewsuk@gmail.com/Saros44393D25] [[1019:JupiterActivityDataObject([84,0],Delete(389,'\n'),jrbaca@gmail.com/Saros9EF66DE5)], [1020:TextSelectionActivityDataObject(offset:389,length:0,src:jrbaca@gmail.com/Saros9EF66DE5,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])], [1021:ViewportActivityDataObject(path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001],range:(0,22))]]
+DEBUG 2012-03-25 09:40:41,726 (DirtyStateListener.java:65) Dirty state reset for: L/Copy of MathCalculator/src/mainMathCalculator.java
+INFO  2012-03-25 09:40:41,728 (XMPPTransmitter.java:988) Could not send message, thus queueing
+java.io.IOException: Connection is not open
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageWithoutQueueing(XMPPTransmitter.java:1029)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageToUser(XMPPTransmitter.java:986)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageToUser(XMPPTransmitter.java:940)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToProjectUser(XMPPTransmitter.java:746)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToProjectUser(XMPPTransmitter.java:724)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToProjectUser(XMPPTransmitter.java:694)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendTimedActivities(XMPPTransmitter.java:635)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.sendActivities(ActivitySequencer.java:679)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.flushTask(ActivitySequencer.java:594)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.access$0(ActivitySequencer.java:547)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2$1.run(ActivitySequencer.java:542)
+	at de.fu_berlin.inf.dpp.util.Utils$6.run(Utils.java:377)
+	at de.fu_berlin.inf.dpp.util.Utils.runSafeSync(Utils.java:553)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.run(ActivitySequencer.java:540)
+	at java.util.TimerThread.mainLoop(Timer.java:512)
+	at java.util.TimerThread.run(Timer.java:462)
+DEBUG 2012-03-25 09:40:41,730 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[1022:EditorActivityDataObject(type:Saved,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+DEBUG 2012-03-25 09:41:03,421 (MUCStateManager.java:155) Couldn't send state (Not connected to server.)
+DEBUG 2012-03-25 09:41:03,675 (MUCStateManager.java:155) Couldn't send state (Not connected to server.)
+INFO  2012-03-25 09:41:19,897 (XMPPTransmitter.java:988) Could not send message, thus queueing
+java.io.IOException: Connection is not open
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageWithoutQueueing(XMPPTransmitter.java:1029)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageToUser(XMPPTransmitter.java:986)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageToUser(XMPPTransmitter.java:940)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToProjectUser(XMPPTransmitter.java:746)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToProjectUser(XMPPTransmitter.java:724)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToProjectUser(XMPPTransmitter.java:694)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendTimedActivities(XMPPTransmitter.java:635)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.sendActivities(ActivitySequencer.java:679)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.flushTask(ActivitySequencer.java:594)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.access$0(ActivitySequencer.java:547)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2$1.run(ActivitySequencer.java:542)
+	at de.fu_berlin.inf.dpp.util.Utils$6.run(Utils.java:377)
+	at de.fu_berlin.inf.dpp.util.Utils.runSafeSync(Utils.java:553)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.run(ActivitySequencer.java:540)
+	at java.util.TimerThread.mainLoop(Timer.java:512)
+	at java.util.TimerThread.run(Timer.java:462)
+DEBUG 2012-03-25 09:41:19,897 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[1023:EditorActivityDataObject(type:Closed,path:SPathDataObject [editorType=txt, path=src/areaCalc.java, projectID=918947001])]]
+WARN  2012-03-25 09:41:19,897 (SharedProjectFileDecorator.java:134) path object should not be null
+INFO  2012-03-25 09:41:19,898 (XMPPTransmitter.java:988) Could not send message, thus queueing
+java.io.IOException: Connection is not open
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageWithoutQueueing(XMPPTransmitter.java:1029)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageToUser(XMPPTransmitter.java:986)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageToUser(XMPPTransmitter.java:940)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToProjectUser(XMPPTransmitter.java:746)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToProjectUser(XMPPTransmitter.java:724)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToProjectUser(XMPPTransmitter.java:694)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendTimedActivities(XMPPTransmitter.java:635)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.sendActivities(ActivitySequencer.java:679)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.flushTask(ActivitySequencer.java:594)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.access$0(ActivitySequencer.java:547)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2$1.run(ActivitySequencer.java:542)
+	at de.fu_berlin.inf.dpp.util.Utils$6.run(Utils.java:377)
+	at de.fu_berlin.inf.dpp.util.Utils.runSafeSync(Utils.java:553)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.run(ActivitySequencer.java:540)
+	at java.util.TimerThread.mainLoop(Timer.java:512)
+	at java.util.TimerThread.run(Timer.java:462)
+DEBUG 2012-03-25 09:41:19,934 (XMPPTransmitter.java:649) Sent (001) [jwewsuk@gmail.com/Saros44393D25] [[1024:EditorActivityDataObject(type:Closed,path:SPathDataObject [editorType=txt, path=src/mainMathCalculator.java, projectID=918947001])]]
+INFO  2012-03-25 09:41:20,200 (XMPPTransmitter.java:988) Could not send message, thus queueing
+java.io.IOException: Connection is not open
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageWithoutQueueing(XMPPTransmitter.java:1029)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageToUser(XMPPTransmitter.java:986)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageToUser(XMPPTransmitter.java:940)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToProjectUser(XMPPTransmitter.java:746)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToProjectUser(XMPPTransmitter.java:724)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendToProjectUser(XMPPTransmitter.java:694)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendTimedActivities(XMPPTransmitter.java:635)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.sendActivities(ActivitySequencer.java:679)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.flushTask(ActivitySequencer.java:594)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.access$0(ActivitySequencer.java:547)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2$1.run(ActivitySequencer.java:542)
+	at de.fu_berlin.inf.dpp.util.Utils$6.run(Utils.java:377)
+	at de.fu_berlin.inf.dpp.util.Utils.runSafeSync(Utils.java:553)
+	at de.fu_berlin.inf.dpp.net.internal.ActivitySequencer$2.run(ActivitySequencer.java:540)
+	at java.util.TimerThread.mainLoop(Timer.java:512)
+	at java.util.TimerThread.run(Timer.java:462)
+DEBUG 2012-03-25 09:41:20,201 (XMPPTransmitter.java:649) Sent (003) [jwewsuk@gmail.com/Saros44393D25] [[1025:EditorActivityDataObject(type:Activated,path:no path)], [1026:EditorActivityDataObject(type:Closed,path:SPathDataObject [editorType=txt, path=src/selectionMenu.java, projectID=918947001])], [1027:EditorActivityDataObject(type:Closed,path:SPathDataObject [editorType=txt, path=src/Test2.java, projectID=918947001])]]
+ERROR 2012-03-25 09:41:21,518 (SarosSessionManager.java:847) Internal error in notifying listener of SarosSession ending: 
+java.lang.IllegalArgumentException: JID cannot be null
+	at de.fu_berlin.inf.dpp.net.JID.<init>(JID.java:74)
+	at de.fu_berlin.inf.dpp.communication.muc.session.MUCSession.getJID(MUCSession.java:391)
+	at de.fu_berlin.inf.dpp.communication.muc.session.MUCSession.disconnect(MUCSession.java:198)
+	at de.fu_berlin.inf.dpp.communication.muc.singleton.MUCManagerSingletonWrapperChatView$1.sessionEnding(MUCManagerSingletonWrapperChatView.java:57)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.notifySessionEnding(SarosSessionManager.java:845)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.stopSarosSession(SarosSessionManager.java:268)
+	at de.fu_berlin.inf.dpp.Saros.stop(Saros.java:305)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:565)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1160)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:595)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:690)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:597)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:390)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:198)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+INFO  2012-03-25 09:41:21,547 (XMPPTransmitter.java:988) Could not send message, thus queueing
+java.io.IOException: Connection is not open
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageWithoutQueueing(XMPPTransmitter.java:1029)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageToUser(XMPPTransmitter.java:986)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageToUser(XMPPTransmitter.java:940)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendMessageToAll(XMPPTransmitter.java:913)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.sendLeaveMessage(XMPPTransmitter.java:608)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.stopSarosSession(SarosSessionManager.java:270)
+	at de.fu_berlin.inf.dpp.Saros.stop(Saros.java:305)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:565)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1160)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:595)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:690)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:597)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:390)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:198)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+DEBUG 2012-03-25 09:41:21,547 (SarosSessionManager.java:271) Leave message sent.
+DEBUG 2012-03-25 09:41:21,548 (EditorManager.java:1825) Unlock all editors
+DEBUG 2012-03-25 09:41:21,549 (EditorManager.java:1825) Unlock all editors
+DEBUG 2012-03-25 09:41:21,581 (FollowModeCollector.java:176) Processing follow mode changes took 0.0010 s
+INFO  2012-03-25 09:41:21,583 (PingPongCentral.java:152) Ping statistics:
+INFO  2012-03-25 09:41:21,584 (ParticipantCollector.java:158) Session ended: Current number of participants: 2
+DEBUG 2012-03-25 09:41:21,626 (StatisticManager.java:452) Session statistic:
+  auto.followmode.enabled=false
+  data_transfer.IBB.average_throughput_kbs=5.4
+  data_transfer.IBB.number_of_events=3
+  data_transfer.IBB.total_size_kb=27
+  data_transfer.IBB.total_time_ms=5103
+  eclipse.version=3.7.0.v20110110
+  feedback.disabled=false
+  feedback.survey.interval=5
+  followmode.time.percent=0
+  followmode.time.total=0.0
+  followmode.toggles=0
+  gesture.count=0
+  java.version=1.6.0_29
+  jumped.count=0
+  jumped.driver.count=0
+  jumped.observer.count=0
+  observer.selection.count.witnessed=0
+  observer.selection.count=0
+  os.name=Mac OS X
+  random.user.id=2012-03-23_17-19-01_822024243
+  role.1.duration=48.68
+  role.1=write_access
+  role.changes=0
+  role.driver.duration=48.68
+  role.driver.percent=100
+  role.observer.duration=0.0
+  role.observer.percent=0
+  saros.version=11.12.9.r3685
+  session.count=3
+  session.id=1979826962
+  session.local.start=2012-03-25T15:41:21.614Z
+  session.time.users.1.percent=1
+  session.time.users.1=0.27
+  session.time.users.2.percent=99
+  session.time.users.2=48.41
+  session.time=48.68
+  session.users.total=2
+  textedits.chars=63
+  textedits.count=42
+  textedits.nonparallel.chars=63
+  textedits.nonparallel.percent=100
+  textedits.pastes.chars=22
+  textedits.pastes=1
+  user.is.host=true
+  voip.session.count=0
+  voip.time.percent=0
+  voip.time.total=0.0
+INFO  2012-03-25 09:41:21,654 (SessionStatistic.java:289) Writing statistic data to /Users/Joseph/Documents/workspace/.metadata/.plugins/de.fu_berlin.inf.dpp/statistic_2012-03-25/session-data_1979826962_2012-03-23_17-19-01_822024243_1332690081627.txt
+INFO  2012-03-25 09:41:21,655 (StatisticManager.java:383) Statistic was gathered and saved to /Users/Joseph/Documents/workspace/.metadata/.plugins/de.fu_berlin.inf.dpp/statistic_2012-03-25/session-data_1979826962_2012-03-23_17-19-01_822024243_1332690081627.txt, but the submission is forbidden by the user.
+INFO  2012-03-25 09:41:21,656 (FeedbackManager.java:70) Session lasted 48 min 40 s
+INFO  2012-03-25 09:41:21,899 (FeedbackManager.java:85) Sessions until next survey: 4
+INFO  2012-03-25 09:41:21,911 (SarosSessionManager.java:286) Session left

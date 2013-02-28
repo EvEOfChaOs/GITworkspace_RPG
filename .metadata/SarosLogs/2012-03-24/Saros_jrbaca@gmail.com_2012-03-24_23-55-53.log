@@ -1,0 +1,106 @@
+INFO  2012-03-24 23:55:49,855 (Saros.java:250) Starting Saros 11.12.9.r3685 running:
+  Java Version: 1.6.0_29
+  Java Vendor: Apple Inc.
+  Eclipse Runtime Version: 3.7.0.v20110110
+  Operating System: Mac OS X (10.7.3)
+  Hardware Architecture: i386
+INFO  2012-03-24 23:55:50,742 (StatisticManager.java:303) Current feedback settings:
+  Feedback disabled: false
+  Feedback interval: 5
+  Statistic submission allowed: false
+  Pseudonym submission allowed: false
+INFO  2012-03-24 23:55:50,759 (XMPPAccountStore.java:106) loaded 1 accounts
+DEBUG 2012-03-24 23:55:50,774 (StreamServiceManager.java:228) StreamServices added:
+  VideoSharing
+  SendFile
+  AudioService
+  ArchiveProject
+INFO  2012-03-24 23:55:50,794 (ErrorLogManager.java:306) Current error log settings:
+  Error log submission allowed: false
+  Full Error log submission allowed: false
+DEBUG 2012-03-24 23:55:50,925 (SarosNet.java:206) Socks5Proxy properties changed. Socks5Proxy started on port 7778...
+DEBUG 2012-03-24 23:55:51,177 (SarosNet.java:428) New Connection State == CONNECTING
+DEBUG 2012-03-24 23:55:53,001 (SarosNet.java:428) [jrbaca@gmail.com/SarosC7CC3211] New Connection State == CONNECTED
+DEBUG 2012-03-24 23:55:53,175 (DataTransferManager.java:674) Prepare bytestreams for XMPP connection. Used transport order: [XEP 65 SOCKS5, XEP 47 In-Band Bytestream]
+DEBUG 2012-03-24 23:55:53,182 (SkypeManager.java:280) Refreshing Skype username cache...
+DEBUG 2012-03-24 23:55:56,728 (SharedDocumentProvider.java:79) SharedDocumentProvider created by Eclipse
+DEBUG 2012-03-24 23:56:03,341 (StartupSaros.java:66) de.fu_berlin.inf.dpp.testmode=null
+DEBUG 2012-03-24 23:56:03,484 (WhiteboardManager.java:108) WhiteboardManager instantiated
+DEBUG 2012-03-24 23:56:03,557 (DocumentRecord.java:93) Added Node: attr(133265496354478414) name=svg
+DEBUG 2012-03-24 23:56:13,029 (StunHelper.java:121) Added WAN-IP: 174.56.67.114 (through 192.168.1.115)
+ERROR 2012-03-25 07:08:15,114 (SarosNet.java:451) XMPP Connection Error: 
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at com.sun.net.ssl.internal.ssl.InputRecord.readFully(InputRecord.java:293)
+	at com.sun.net.ssl.internal.ssl.InputRecord.read(InputRecord.java:331)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:830)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:787)
+	at com.sun.net.ssl.internal.ssl.AppInputStream.read(AppInputStream.java:75)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:264)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:306)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:158)
+	at java.io.InputStreamReader.read(InputStreamReader.java:167)
+	at java.io.BufferedReader.fill(BufferedReader.java:136)
+	at java.io.BufferedReader.read1(BufferedReader.java:187)
+	at java.io.BufferedReader.read(BufferedReader.java:261)
+	at org.xmlpull.mxp1.MXParser.fillBuf(MXParser.java:2992)
+	at org.xmlpull.mxp1.MXParser.more(MXParser.java:3046)
+	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1384)
+	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:325)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:43)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:70)
+ERROR 2012-03-25 07:08:15,168 (SarosNet.java:430) New Connection State == ERROR
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at com.sun.net.ssl.internal.ssl.InputRecord.readFully(InputRecord.java:293)
+	at com.sun.net.ssl.internal.ssl.InputRecord.read(InputRecord.java:331)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:830)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:787)
+	at com.sun.net.ssl.internal.ssl.AppInputStream.read(AppInputStream.java:75)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:264)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:306)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:158)
+	at java.io.InputStreamReader.read(InputStreamReader.java:167)
+	at java.io.BufferedReader.fill(BufferedReader.java:136)
+	at java.io.BufferedReader.read1(BufferedReader.java:187)
+	at java.io.BufferedReader.read(BufferedReader.java:261)
+	at org.xmlpull.mxp1.MXParser.fillBuf(MXParser.java:2992)
+	at org.xmlpull.mxp1.MXParser.more(MXParser.java:3046)
+	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1384)
+	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:325)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:43)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:70)
+INFO  2012-03-25 07:08:15,339 (SarosNet.java:479) Reconnecting...(Joseph-Bacas-MacBook-Pro.local/192.168.1.115)
+INFO  2012-03-25 07:08:15,339 (SarosNet.java:496) Login failed:null
+INFO  2012-03-25 07:08:15,340 (SarosNet.java:479) Reconnecting...(Joseph-Bacas-MacBook-Pro.local/192.168.1.115)
+INFO  2012-03-25 07:08:15,340 (SarosNet.java:496) Login failed:null
+INFO  2012-03-25 07:08:15,340 (SarosNet.java:479) Reconnecting...(Joseph-Bacas-MacBook-Pro.local/192.168.1.115)
+INFO  2012-03-25 07:08:15,340 (SarosNet.java:496) Login failed:null
+INFO  2012-03-25 07:08:15,340 (SarosNet.java:479) Reconnecting...(Joseph-Bacas-MacBook-Pro.local/192.168.1.115)
+INFO  2012-03-25 07:08:15,341 (SarosNet.java:496) Login failed:null
+INFO  2012-03-25 07:08:15,341 (SarosNet.java:479) Reconnecting...(Joseph-Bacas-MacBook-Pro.local/192.168.1.115)
+INFO  2012-03-25 07:08:15,341 (SarosNet.java:496) Login failed:null
+INFO  2012-03-25 07:08:15,341 (SarosNet.java:479) Reconnecting...(Joseph-Bacas-MacBook-Pro.local/192.168.1.115)
+INFO  2012-03-25 07:08:15,341 (SarosNet.java:496) Login failed:null
+INFO  2012-03-25 07:08:15,342 (SarosNet.java:479) Reconnecting...(Joseph-Bacas-MacBook-Pro.local/192.168.1.115)
+INFO  2012-03-25 07:08:15,342 (SarosNet.java:496) Login failed:null
+INFO  2012-03-25 07:08:15,342 (SarosNet.java:479) Reconnecting...(Joseph-Bacas-MacBook-Pro.local/192.168.1.115)
+INFO  2012-03-25 07:08:15,342 (SarosNet.java:496) Login failed:null
+INFO  2012-03-25 07:08:15,342 (SarosNet.java:479) Reconnecting...(Joseph-Bacas-MacBook-Pro.local/192.168.1.115)
+INFO  2012-03-25 07:08:15,343 (SarosNet.java:496) Login failed:null
+INFO  2012-03-25 07:08:15,343 (SarosNet.java:479) Reconnecting...(Joseph-Bacas-MacBook-Pro.local/192.168.1.115)
+INFO  2012-03-25 07:08:15,343 (SarosNet.java:496) Login failed:null
+INFO  2012-03-25 07:08:15,343 (SarosNet.java:479) Reconnecting...(Joseph-Bacas-MacBook-Pro.local/192.168.1.115)
+INFO  2012-03-25 07:08:15,343 (SarosNet.java:496) Login failed:null
+INFO  2012-03-25 07:08:15,344 (SarosNet.java:479) Reconnecting...(Joseph-Bacas-MacBook-Pro.local/192.168.1.115)
+INFO  2012-03-25 07:08:15,344 (SarosNet.java:496) Login failed:null
+INFO  2012-03-25 07:08:15,344 (SarosNet.java:479) Reconnecting...(Joseph-Bacas-MacBook-Pro.local/192.168.1.115)
+INFO  2012-03-25 07:08:15,344 (SarosNet.java:496) Login failed:null
+INFO  2012-03-25 07:08:15,344 (SarosNet.java:479) Reconnecting...(Joseph-Bacas-MacBook-Pro.local/192.168.1.115)
+INFO  2012-03-25 07:08:15,345 (SarosNet.java:496) Login failed:null
+INFO  2012-03-25 07:08:15,345 (SarosNet.java:479) Reconnecting...(Joseph-Bacas-MacBook-Pro.local/192.168.1.115)
+INFO  2012-03-25 07:08:15,345 (SarosNet.java:496) Login failed:null
+DEBUG 2012-03-25 07:49:31,627 (IconUtils.java:198) color: RGB {255, 255, 255}
+DEBUG 2012-03-25 07:49:31,675 (IconUtils.java:209) create foreground icon with color RGB {0, 0, 0}

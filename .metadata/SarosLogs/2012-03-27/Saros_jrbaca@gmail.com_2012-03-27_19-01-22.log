@@ -1,0 +1,45 @@
+INFO  2012-03-27 19:01:19,869 (Saros.java:250) Starting Saros 11.12.9.r3685 running:
+  Java Version: 1.6.0_29
+  Java Vendor: Apple Inc.
+  Eclipse Runtime Version: 3.7.0.v20110110
+  Operating System: Mac OS X (10.7.3)
+  Hardware Architecture: i386
+INFO  2012-03-27 19:01:20,254 (StatisticManager.java:303) Current feedback settings:
+  Feedback disabled: false
+  Feedback interval: 5
+  Statistic submission allowed: false
+  Pseudonym submission allowed: false
+DEBUG 2012-03-27 19:01:20,267 (StreamServiceManager.java:228) StreamServices added:
+  VideoSharing
+  ArchiveProject
+  SendFile
+  AudioService
+INFO  2012-03-27 19:01:20,314 (XMPPAccountStore.java:106) loaded 1 accounts
+INFO  2012-03-27 19:01:20,340 (ErrorLogManager.java:306) Current error log settings:
+  Error log submission allowed: false
+  Full Error log submission allowed: false
+DEBUG 2012-03-27 19:01:20,399 (SarosNet.java:206) Socks5Proxy properties changed. Socks5Proxy started on port 7777...
+DEBUG 2012-03-27 19:01:20,439 (StunHelper.java:128) Error while performing STUN: No route to host
+DEBUG 2012-03-27 19:01:20,439 (StunHelper.java:128) Error while performing STUN: No route to host
+DEBUG 2012-03-27 19:01:20,500 (SarosNet.java:428) New Connection State == CONNECTING
+DEBUG 2012-03-27 19:01:21,775 (StunHelper.java:128) Error while performing STUN: No route to host
+DEBUG 2012-03-27 19:01:21,777 (StunHelper.java:128) Error while performing STUN: No route to host
+DEBUG 2012-03-27 19:01:22,283 (SarosNet.java:428) [jrbaca@gmail.com/Saros28B45BB7] New Connection State == CONNECTED
+DEBUG 2012-03-27 19:01:22,454 (DataTransferManager.java:674) Prepare bytestreams for XMPP connection. Used transport order: [XEP 65 SOCKS5, XEP 47 In-Band Bytestream]
+DEBUG 2012-03-27 19:01:22,461 (SkypeManager.java:280) Refreshing Skype username cache...
+DEBUG 2012-03-27 19:01:22,924 (SharedDocumentProvider.java:79) SharedDocumentProvider created by Eclipse
+DEBUG 2012-03-27 19:01:25,187 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: brb712@gmail.com/android85c1f1876b8c
+DEBUG 2012-03-27 19:01:25,325 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: jwewsuk@gmail.com/androida0083275ef1a
+DEBUG 2012-03-27 19:01:25,339 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: 2kdsebqm86njj298ihpmymc8ki@public.talk.google.com/gmail.3FAE4FCA
+WARN  2012-03-27 19:01:25,377 (DiscoveryManager.java:439) Service Discovery failed on recipient lightningzygella@gmail.com/Talk.v10400871077 server:xmpp.l.google.com:
+feature-not-implemented(501)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:448)
+	at org.jivesoftware.smackx.ServiceDiscoveryManager.discoverInfo(ServiceDiscoveryManager.java:414)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.querySupport(DiscoveryManager.java:436)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isFeatureSupported(DiscoveryManager.java:387)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.getSupportingPresence(DiscoveryManager.java:289)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager.isSarosSupported(DiscoveryManager.java:207)
+	at de.fu_berlin.inf.dpp.net.internal.discoveryManager.DiscoveryManager$2$1.run(DiscoveryManager.java:329)
+	at de.fu_berlin.inf.dpp.util.Utils$6.run(Utils.java:377)
+	at java.lang.Thread.run(Thread.java:680)
+DEBUG 2012-03-27 19:01:25,875 (DiscoveryManager.java:389) Inserted DiscoveryInfo into Cache for: lightningzygella@gmail.com/SarosDF3CC8B3
